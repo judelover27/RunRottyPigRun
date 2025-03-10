@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed = 5f;
     public float runSpeed = 8f;
+    public float runStamina = 20f;
+    public float jumpStamina = 20f;
     public bool isMove;
     public bool isRun;
     public bool isFloat;
@@ -61,7 +63,7 @@ public class PlayerController : MonoBehaviour
 
         if (isRun && !UIManager.Instance.condition.stamina.recovering)
         {
-            UIManager.Instance.condition.stamina.Subtract(Time.deltaTime*10f);
+            UIManager.Instance.condition.stamina.Subtract(Time.deltaTime* runStamina);
             dir *= runSpeed;
         }
         else
@@ -122,6 +124,7 @@ public class PlayerController : MonoBehaviour
         if (context.phase == InputActionPhase.Started && IsGrounded() && !UIManager.Instance.condition.stamina.recovering)
         {
             CharacterManager.Instance.Player.animationHandler.Jump();
+            UIManager.Instance.condition.stamina.Subtract(jumpStamina);
 
             if (!isMove)
             {

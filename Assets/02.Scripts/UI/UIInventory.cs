@@ -191,6 +191,14 @@ public class UIInventory : UIBase
             }
             RemoveSeletedItem();
         }
+        else if (selectedItem.itemType == ItemType.Special)
+        {
+            for (int i = 0; i < selectedItem.specialties.Length; i++)
+            {
+                selectedItem.specialties[i].SpecialUtil();
+            }
+            RemoveSeletedItem();
+        }
 
     }
 

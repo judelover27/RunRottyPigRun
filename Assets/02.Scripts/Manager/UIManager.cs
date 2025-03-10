@@ -37,6 +37,7 @@ public class UIManager : Singleton<UIManager>
         {
             PopMenu().gameObject.SetActive(false);
             CharacterManager.Instance.Player.controller.ToggleCursor();
+            SetCanMove();
             Debug.Log($"{menus.Count}");
         }
         else
@@ -46,6 +47,7 @@ public class UIManager : Singleton<UIManager>
                 menu.escapeMenu.gameObject.SetActive(true);
                 PushMenu(menu.escapeMenu);
                 CharacterManager.Instance.Player.controller.ToggleCursor();
+                SetCanMove();
                 Debug.Log($"{menus.Count}");
             }
         }
@@ -60,13 +62,15 @@ public class UIManager : Singleton<UIManager>
                 PopMenu();
                 inventory.gameObject.SetActive(false);
                 CharacterManager.Instance.Player.controller.ToggleCursor();
+                SetCanMove();
                 Debug.Log($"{menus.Count}");
             }
-            else if (!inventory.IsOpen())
+            else if (!inventory.IsOpen() && menus.Count == 0)
             {
                 inventory.gameObject.SetActive(true);
                 PushMenu(inventory);
                 CharacterManager.Instance.Player.controller.ToggleCursor();
+                SetCanMove();
                 Debug.Log($"{menus.Count}");
             }
         }
@@ -89,4 +93,15 @@ public class UIManager : Singleton<UIManager>
         return null;
     }
 
+    private void SetCanMove()
+    {
+        if(menus.Count > 0)
+        {
+            CharacterManager.Instance.Player.controller.canMove = false;
+        }
+        else
+        {
+            CharacterManager.Instance.Player.controller.canMove = true;
+        }
+    }
 }
