@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.38272747, g: 0.28765723, b: 0.31383222, a: 1}
+  m_IndirectSpecularColor: {r: 0.14551035, g: 0.109643675, b: 0.11954274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2091,8 +2091,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.0034900678
-      value: 0.062013358
+      time: 0.002429582
+      value: 0.09674236
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2100,8 +2100,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.19890594
-      value: -0.00579834
+      time: 0.19573212
+      value: 0.02508545
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2118,8 +2118,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.7337036
-      value: 0.0014953613
+      time: 0.73583984
+      value: 0.040130615
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2127,8 +2127,8 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.8966453
-      value: 0.052984625
+      time: 0.90085673
+      value: 0.09735718
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5565,7 +5565,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7482667652216324306, guid: 8384cb156a689624bb0773ecd3f137c7, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 8469580fa81104548ba1d665c97eb4b3, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6528,7 +6528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7482667652216324306, guid: 8384cb156a689624bb0773ecd3f137c7, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 8469580fa81104548ba1d665c97eb4b3, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7840,7 +7840,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   curValue: 0
-  startValue: 100
+  startValue: 19.3
   maxValue: 100
   passiveValue: 10
   uiBar: {fileID: 3807408220243861081}
@@ -8044,7 +8044,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7482667652216324306, guid: 8384cb156a689624bb0773ecd3f137c7, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 8469580fa81104548ba1d665c97eb4b3, type: 3}
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
