@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4532877076162153602}
   - component: {fileID: 281075248756907466}
   - component: {fileID: 7158669410921986731}
+  - component: {fileID: 2693582236847703707}
   m_Layer: 8
   m_Name: BluePotion
   m_TagString: Untagged
@@ -135,3 +136,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duration: 20
   multiplier: 3
+--- !u!54 &2693582236847703707
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7110782364668960676}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
