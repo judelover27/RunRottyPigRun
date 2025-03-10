@@ -25,6 +25,8 @@ public class UIEscapeMenu : UIBase
     public void OnBackButton()
     {
         UIManager.Instance.PopMenu();
+        UIManager.Instance.SetCanMove();
+        CharacterManager.Instance.Player.controller.LockCursor();
         gameObject.SetActive(false);
     }
 
