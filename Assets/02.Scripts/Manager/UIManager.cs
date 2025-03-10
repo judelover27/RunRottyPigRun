@@ -36,7 +36,7 @@ public class UIManager : Singleton<UIManager>
         if (menus.Count > 0)
         {
             PopMenu().gameObject.SetActive(false);
-            Cursor.lockState = CursorLockMode.Locked;
+            CharacterManager.Instance.Player.controller.ToggleCursor();
             Debug.Log($"{menus.Count}");
         }
         else
@@ -45,8 +45,7 @@ public class UIManager : Singleton<UIManager>
             {
                 menu.escapeMenu.gameObject.SetActive(true);
                 PushMenu(menu.escapeMenu);
-                Cursor.lockState = CursorLockMode.None;
-
+                CharacterManager.Instance.Player.controller.ToggleCursor();
                 Debug.Log($"{menus.Count}");
             }
         }
@@ -60,13 +59,14 @@ public class UIManager : Singleton<UIManager>
             {
                 PopMenu();
                 inventory.gameObject.SetActive(false);
-
+                CharacterManager.Instance.Player.controller.ToggleCursor();
                 Debug.Log($"{menus.Count}");
             }
             else if (!inventory.IsOpen())
             {
                 inventory.gameObject.SetActive(true);
                 PushMenu(inventory);
+                CharacterManager.Instance.Player.controller.ToggleCursor();
                 Debug.Log($"{menus.Count}");
             }
         }
@@ -88,4 +88,5 @@ public class UIManager : Singleton<UIManager>
 
         return null;
     }
+
 }

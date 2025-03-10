@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,13 +7,15 @@ public enum ItemType
 {
     Essential,
     Special,
-    Consumable
+    Consumable,
+    Weapon,
+    HeadGear
 }
 
 public enum ConsumableType
 {
     Health,
-    Hunger
+    Stamina
 }
 
 [Serializable]
@@ -33,7 +35,7 @@ public abstract class Specialty : MonoBehaviour
 
 
 
-[CreateAssetMenu(fileName = "Item", menuName = "new Item")]//»õ·Î¸¸µé±âÃ¢¿¡ »ı¼º
+[CreateAssetMenu(fileName = "Item", menuName = "new Item")]//ìƒˆë¡œë§Œë“¤ê¸°ì°½ì— ìƒì„±
 public class ItemData : ScriptableObject
 {
     [Header("Info")]
@@ -56,7 +58,7 @@ public class ItemData : ScriptableObject
     {
         foreach (var specialty in specialties)
         {
-            specialty.SpecialUtil(); //  ¸ğµç Æ¯¼ö ±â´É ½ÇÇà
+            specialty.SpecialUtil(); //  ëª¨ë“  íŠ¹ìˆ˜ ê¸°ëŠ¥ ì‹¤í–‰
         }
     }
 

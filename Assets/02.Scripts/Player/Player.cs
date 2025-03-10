@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
     public PlayerController controller;
     public PlayerCondition condition;
     public PlayerAnimationHandler animationHandler;
+    public HeadGear headGear;
+    public Weapon weapon;
 
     public ItemData itemData;
     public Action addItem;

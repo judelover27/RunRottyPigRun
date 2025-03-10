@@ -37,7 +37,6 @@ public class UIInventory : UIBase
         condition = CharacterManager.Instance.Player.condition;
         dropPosition = CharacterManager.Instance.Player.dropPosition;
 
-        controller.inventory += Toggle;
         CharacterManager.Instance.Player.addItem += Additem;
 
         inventoryWindow.SetActive(false);
@@ -66,10 +65,6 @@ public class UIInventory : UIBase
         dropButton.SetActive(false);
     }
 
-    public void Toggle()
-    {
-
-    }
 
     public bool IsOpen()
     {
@@ -189,8 +184,8 @@ public class UIInventory : UIBase
                     case ConsumableType.Health:
                         condition.Heal(selectedItem.consumables[i].value);
                         break;
-                    case ConsumableType.Hunger:
-                        condition.Eat(selectedItem.consumables[i].value);
+                    case ConsumableType.Stamina:
+                        condition.refillStamina(selectedItem.consumables[i].value);
                         break;
                 }
             }
@@ -199,6 +194,36 @@ public class UIInventory : UIBase
 
     }
 
+    public void OnEquipButton()
+    {
+        if (slots[curEquipIndex].equipped)
+        {
+            Unequip(curEquipIndex);
+        }
+
+        slots[selectedItemIndex].equipped = true;
+        curEquipIndex = selectedItemIndex;
+        CharacterManager.Instance.Player.weapon.EquipNew(selectedItem);
+        UpdateUI();
+
+        SelectItem(selectedItemIndex);
+    }
+    public void Unequip(int index)
+    {
+        slots[index].equipped = false;
+        CharacterManager.Instance.Player.weapon.UnEquip();
+        UpdateUI();
+
+        if (selectedItemIndex == index)
+        {
+            SelectItem(selectedItemIndex);
+        }
+    }
+
+    public void OnUnequipButton()
+    {
+        Unequip(selectedItemIndex);
+    }
 
     public void OnDropButton()
     {

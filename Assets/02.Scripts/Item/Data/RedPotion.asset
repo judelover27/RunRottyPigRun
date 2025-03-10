@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 13af6b6d66364224291b8b90d330891e, type: 3}
-  m_Name: Food
+  m_Name: RedPotion
   m_EditorClassIdentifier: 
-  displayName: Food
-  description: YoU cAn EaT
-  ItemType: 0
+  displayName: RedPotion
+  description: Heal
+  itemType: 2
   icon: {fileID: 0}
   dropPrefab: {fileID: 0}
   canStack: 1
-  maxStackAmount: 0
+  maxStackAmount: 10
   consumables:
   - type: 0
-    value: 0
+    value: 40
   specialties:
   - {fileID: 0}

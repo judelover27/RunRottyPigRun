@@ -12,7 +12,6 @@ public class PlayerCondition : MonoBehaviour, IDamagable
 {
 
     Condition health { get => UIManager.Instance.condition.health; }
-    Condition hunger { get => UIManager.Instance.condition.hunger; }
     Condition stamina { get => UIManager.Instance.condition.stamina; }
 
     public float noHungerHealthDecay;
@@ -22,15 +21,10 @@ public class PlayerCondition : MonoBehaviour, IDamagable
     
     private void Update()
     {
-        hunger.Subtract(hunger.passiveValue * Time.deltaTime);
 
         if(!CharacterManager.Instance.Player.controller.isRun)
         stamina.Add(stamina.passiveValue * Time.deltaTime);
 
-        if (hunger.curValue <= 0f)
-        {
-            health.Subtract(noHungerHealthDecay * Time.deltaTime);
-        }
 
         if (health.curValue <= 0f)
         {
@@ -43,9 +37,14 @@ public class PlayerCondition : MonoBehaviour, IDamagable
         health.Add(amount);
     }
 
-    public void Eat(float amount)
+    /*public void Eat(float amount)
     {
         hunger.Add(amount);
+    }*/
+
+    public void refillStamina(float amount)
+    {
+        stamina.Add(amount);
     }
 
     public void Die()
