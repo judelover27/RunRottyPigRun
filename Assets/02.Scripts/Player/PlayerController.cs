@@ -45,8 +45,8 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if(canMove)
-        Move();
+        if (canMove)
+            Move();
     }
 
     private void LateUpdate()
@@ -59,8 +59,11 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 dir = transform.forward * curMovementInput.y + transform.right * curMovementInput.x;
 
-        if (isRun)
+        if (isRun && !UIManager.Instance.condition.stamina.recovering)
+        {
+            UIManager.Instance.condition.stamina.Subtract(Time.deltaTime*10f);
             dir *= runSpeed;
+        }
         else
             dir *= moveSpeed;
 
@@ -94,16 +97,21 @@ public class PlayerController : MonoBehaviour
 
     public void OnRunInput(InputAction.CallbackContext context)
     {
+
+
         if (context.phase == InputActionPhase.Performed)
         {
-            isRun = true;
+            if (!UIManager.Instance.condition.stamina.recovering)
+                isRun = true;
+            else
+                isRun = false;
         }
         else if (context.phase == InputActionPhase.Canceled)
         {
             isRun = false;
         }
-    }
 
+    }
     public void OnLookInput(InputAction.CallbackContext context)
     {
         mouseDelta = context.ReadValue<Vector2>();
@@ -111,7 +119,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnJumpInput(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Started && IsGrounded())
+        if (context.phase == InputActionPhase.Started && IsGrounded() && !UIManager.Instance.condition.stamina.recovering)
         {
             CharacterManager.Instance.Player.animationHandler.Jump();
 

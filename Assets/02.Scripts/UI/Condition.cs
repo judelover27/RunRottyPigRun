@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -14,12 +14,12 @@ public class Condition : MonoBehaviour
     public float recoveringValue;
     public bool recovering;
 
-    private void Start()
+    protected void Start()
     {
         curValue = startValue;
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         uiBar.fillAmount = GetPercentage();
     }
@@ -38,4 +38,5 @@ public class Condition : MonoBehaviour
     {
         curValue = Mathf.Max(curValue - value, 0);
     }
+
 }

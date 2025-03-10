@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +23,8 @@ public class PlayerCondition : MonoBehaviour, IDamagable
     private void Update()
     {
         hunger.Subtract(hunger.passiveValue * Time.deltaTime);
+
+        if(!CharacterManager.Instance.Player.controller.isRun)
         stamina.Add(stamina.passiveValue * Time.deltaTime);
 
         if (hunger.curValue <= 0f)
@@ -57,26 +59,6 @@ public class PlayerCondition : MonoBehaviour, IDamagable
         onTakeDamage?.Invoke();
     }
 
-    public bool UseStamina(float amount)
-    {
-        if (stamina.recovering)
-        {
-            if (stamina.curValue > stamina.recoveringValue)
-            {
-                stamina.recovering = false;
-                return true;
-            }
 
-            return false;
-        }
 
-        stamina.Subtract(amount);
-
-        if (stamina.curValue <= 0)
-        {
-            stamina.recovering = true;
-        }
-
-        return true;
-    }
 }
