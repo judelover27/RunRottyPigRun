@@ -44,6 +44,8 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
             Move();
+        else
+            isMove = false;
     }
 
     private void Update()
@@ -63,14 +65,15 @@ public class PlayerController : MonoBehaviour
 
         if (isRun && !UIManager.Instance.condition.stamina.recovering)
         {
-            UIManager.Instance.condition.stamina.Subtract(Time.deltaTime* runStamina);
+            UIManager.Instance.condition.stamina.Subtract(Time.deltaTime * runStamina);
             dir *= runSpeed;
         }
         else
+        {
             dir *= moveSpeed;
+        }
 
         dir.y = _rigidbody.velocity.y;
-
         _rigidbody.velocity = dir;
     }
 
@@ -85,6 +88,13 @@ public class PlayerController : MonoBehaviour
 
     public void OnMoveInput(InputAction.CallbackContext context)
     {
+        if (!canMove)
+        {
+            curMovementInput = Vector2.zero;
+            isMove = false;
+            return;
+        }
+
         if (context.phase == InputActionPhase.Performed)
         {
             curMovementInput = context.ReadValue<Vector2>();
@@ -130,13 +140,13 @@ public class PlayerController : MonoBehaviour
             {
                 canMove = false;
                 isJumping = true;
-                StartCoroutine(Jump(1f));
+                StartCoroutine(Jump(.8f));
 
             }
             else
             {
                 isJumping = true;
-                StartCoroutine(Jump(0.5f));
+                StartCoroutine(Jump(0.2f));
             }
         }
     }

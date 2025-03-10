@@ -15,9 +15,10 @@ MonoBehaviour:
   displayName: "\uC220\uC794"
   description: "\uC810\uD504\uB825\uC774 \uAC15\uD654\uB41C\uB2E4"
   itemType: 1
-  icon: {fileID: 0}
-  dropPrefab: {fileID: 0}
+  icon: {fileID: 1197337205, guid: 847f3e08157367e458aec63415b2d664, type: 3}
+  dropPrefab: {fileID: 8123084829858392101, guid: 00ca28b8a6061154d91e66ccaf446e23, type: 3}
   canStack: 0
   maxStackAmount: 0
   consumables: []
-  specialties: []
+  specialties:
+  - {fileID: 8645367837685411480, guid: 00ca28b8a6061154d91e66ccaf446e23, type: 3}

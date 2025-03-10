@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13af6b6d66364224291b8b90d330891e, type: 3}
   m_Name: BluePotion
   m_EditorClassIdentifier: 
-  displayName: 
-  description: 
-  itemType: 0
-  icon: {fileID: 0}
-  dropPrefab: {fileID: 0}
+  displayName: BluePotion
+  description: Get Smaller
+  itemType: 1
+  icon: {fileID: -1915229303, guid: 847f3e08157367e458aec63415b2d664, type: 3}
+  dropPrefab: {fileID: 7110782364668960676, guid: c2ddfbd3ee282194eaed397ba063bcd5, type: 3}
   canStack: 0
   maxStackAmount: 0
   consumables: []
-  specialties: []
+  specialties:
+  - {fileID: 7158669410921986731, guid: c2ddfbd3ee282194eaed397ba063bcd5, type: 3}

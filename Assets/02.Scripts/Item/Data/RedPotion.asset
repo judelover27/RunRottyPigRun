@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RedPotion
   m_EditorClassIdentifier: 
   displayName: RedPotion
-  description: Heal 10
+  description: Heal
   itemType: 2
   icon: {fileID: -241880949, guid: 847f3e08157367e458aec63415b2d664, type: 3}
   dropPrefab: {fileID: 2561188813657140736, guid: 0a3dd58da5f15e941ba01d6cfd27423d, type: 3}
@@ -22,5 +22,4 @@ MonoBehaviour:
   consumables:
   - type: 0
     value: 40
-  specialties:
-  - {fileID: 0}
+  specialties: []
