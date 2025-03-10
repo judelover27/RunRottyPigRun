@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -12,6 +12,7 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
             if (_instance == null)
             {
                 _instance = new GameObject(typeof(T).Name).AddComponent<T>();
+                DontDestroyOnLoad(_instance.gameObject);
             }
             return _instance;
         }

@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -27,7 +27,7 @@ public class ItemSlot : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log("onEnable");
+        //Debug.Log("onEnable");
         outline.enabled = equipped;
     }
 

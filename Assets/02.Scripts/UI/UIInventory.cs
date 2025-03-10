@@ -68,16 +68,7 @@ public class UIInventory : UIBase
 
     public void Toggle()
     {
-        if (IsOpen())
-        {
-            inventoryWindow.SetActive(false);
-            UIManager.Instance.PushMenu(this);
-        }
-        else if (!IsOpen())
-        {
-            inventoryWindow.SetActive(true);
-            UIManager.Instance.PopMenu();
-        }
+
     }
 
     public bool IsOpen()

@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class UIManager : Singleton<UIManager> 
+public class UIManager : Singleton<UIManager>
 {
     public UIInventory inventory;
     public UICondition condition;
     public UIMenu menu;
 
-    [SerializeField]public Stack<UIBase> menus;
+    [SerializeField] public Stack<UIBase> menus;
 
     protected override void Awake()
     {
@@ -25,19 +25,19 @@ public class UIManager : Singleton<UIManager>
         Cursor.lockState = CursorLockMode.Locked;
     }
 
-    public void OnInputAction(InputAction.CallbackContext context)
+    public void OnEscape(InputAction.CallbackContext context)
     {
-        if (context.phase == InputActionPhase.Started)
-        {
-            ToggleMenu();
-        }
+        if(context.phase == InputActionPhase.Started)
+        ToggleMenu();
     }
+
     public void ToggleMenu()
     {
         if (menus.Count > 0)
         {
             PopMenu().gameObject.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
+            Debug.Log($"{menus.Count}");
         }
         else
         {
@@ -46,19 +46,45 @@ public class UIManager : Singleton<UIManager>
                 menu.escapeMenu.gameObject.SetActive(true);
                 PushMenu(menu.escapeMenu);
                 Cursor.lockState = CursorLockMode.None;
+
+                Debug.Log($"{menus.Count}");
             }
         }
     }
 
+    public void OnTab(InputAction.CallbackContext context)
+    {
+        if (context.phase == InputActionPhase.Started)
+        {
+            if (inventory.IsOpen())
+            {
+                PopMenu();
+                inventory.gameObject.SetActive(false);
+
+                Debug.Log($"{menus.Count}");
+            }
+            else if (!inventory.IsOpen())
+            {
+                inventory.gameObject.SetActive(true);
+                PushMenu(inventory);
+                Debug.Log($"{menus.Count}");
+            }
+        }
+    }
+
+
     public void PushMenu(UIBase menu)
     {
         menus.Push(menu);
+        
     }
 
     public UIBase PopMenu()
     {
         if (menus.Count > 0)
+        {
             return menus.Pop();
+        }
 
         return null;
     }

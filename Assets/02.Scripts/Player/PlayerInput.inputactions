@@ -152,6 +152,54 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "UIInputAction",
+            "id": "0c889792-f52e-4477-b1df-b4ba5ae8b031",
+            "actions": [
+                {
+                    "name": "EscapeMenu",
+                    "type": "Button",
+                    "id": "267ab7ee-4f78-42eb-940c-b4499a5a5014",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TabMenu",
+                    "type": "Button",
+                    "id": "956172e2-68e7-4347-af3c-bedbb378cf23",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "38839536-254f-4f37-86cb-1fb96c26f4aa",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EscapeMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "64bec23a-e303-4fc3-b5e3-71ef34f11da6",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TabMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": []
