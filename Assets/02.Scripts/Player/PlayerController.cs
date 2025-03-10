@@ -37,12 +37,6 @@ public class PlayerController : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         capsuleCollider = GetComponent<CapsuleCollider>();
     }
-
-    private void Start()
-    {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
     private void FixedUpdate()
     {
         if (canMove)

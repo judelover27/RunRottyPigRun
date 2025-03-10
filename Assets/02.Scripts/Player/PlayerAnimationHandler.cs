@@ -1,12 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerAnimationHandler : AnimationHandler
 {
     private bool isMoving;
     private bool isRunning;
-    private void Update()
+    protected override void Start()
+    {
+        base.Start();
+        CharacterManager.Instance.Player.condition.onTakeDamage += Hit;
+    }
+    protected override void Update()
     {
         Move();
     }
@@ -33,6 +39,12 @@ public class PlayerAnimationHandler : AnimationHandler
     {
         animator.SetTrigger(jump);
     }
-    public override void Attack() { }
-    public override void Hit() { }
+    public override void Attack() 
+    {
+        animator.SetTrigger(attack);
+    }
+    public override void Hit()
+    {
+        animator.SetTrigger(hit);
+    }
 }

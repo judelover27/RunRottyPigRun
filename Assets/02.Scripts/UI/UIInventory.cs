@@ -1,10 +1,10 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using TMPro;
 using UnityEngine;
 
-public class UIInventory : MonoBehaviour
+public class UIInventory : UIBase
 {
     public ItemSlot[] slots;
 
@@ -71,10 +71,12 @@ public class UIInventory : MonoBehaviour
         if (IsOpen())
         {
             inventoryWindow.SetActive(false);
+            UIManager.Instance.PushMenu(this);
         }
         else if (!IsOpen())
         {
             inventoryWindow.SetActive(true);
+            UIManager.Instance.PopMenu();
         }
     }
 

@@ -1,0 +1,54 @@
+{
+    "name": "UIInputAction",
+    "maps": [
+        {
+            "name": "UIInputAction",
+            "id": "5b36670a-88f0-42fe-bdb6-c16be197bc18",
+            "actions": [
+                {
+                    "name": "EscapeMenu",
+                    "type": "Button",
+                    "id": "5c01f0f4-f70d-43ff-b8bf-f917cfe95265",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Inventory",
+                    "type": "Button",
+                    "id": "287be15e-e0bd-4d96-9303-b80709f84dbe",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a28124b9-0204-4e2b-ad96-636238b71034",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EscapeMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2ae7156f-aaac-44de-b921-4ff9dfd9aa3d",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inventory",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

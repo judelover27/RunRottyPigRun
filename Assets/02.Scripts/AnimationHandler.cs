@@ -10,13 +10,13 @@ public class AnimationHandler : MonoBehaviour
     protected int attack = Animator.StringToHash("Attack");
     protected int jump = Animator.StringToHash("Jump");
     protected int hit = Animator.StringToHash("Hit");
-    void Start()
+    protected virtual void Start()
     {
         animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         
     }
