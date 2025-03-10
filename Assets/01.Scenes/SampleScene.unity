@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44333008, g: 0.33314544, b: 0.3634697, a: 1}
+  m_IndirectSpecularColor: {r: 0.43978566, g: 0.33048236, b: 0.3605692, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6220,6 +6220,7 @@ Transform:
   - {fileID: 50833059}
   - {fileID: 478589138}
   - {fileID: 1248788801}
+  - {fileID: 5916847345681956208}
   m_Father: {fileID: 1537728362}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1437418668
@@ -8436,6 +8437,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: a8547993-1861-420f-92e2-4bdb204c027a
     m_ActionName: PlayerAction/New action[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 267ab7ee-4f78-42eb-940c-b4499a5a5014
+    m_ActionName: UIInputAction/EscapeMenu[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 956172e2-68e7-4347-af3c-bedbb378cf23
+    m_ActionName: UIInputAction/TabMenu[/Keyboard/tab]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: PlayerAction
@@ -10764,6 +10773,63 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1001 &3807892536266118570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1424557499}
+    m_Modifications:
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9070775437918424809, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+      propertyPath: m_Name
+      value: SpikeTrap
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
 --- !u!1 &3819746201575813305
 GameObject:
   m_ObjectHideFlags: 0
@@ -12066,6 +12132,11 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!4 &5916847345681956208 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5803372847611878117, guid: 5ecbc2c70eabe5c4b99c0ef7a8b61163, type: 3}
+  m_PrefabInstance: {fileID: 3807892536266118570}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5945110961220877227
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 8f;
     public bool isMove;
     public bool isRun;
+    public bool isFloat;
     private bool isJumping;
     public bool canMove = true;
     private Vector2 curMovementInput;
@@ -41,6 +42,11 @@ public class PlayerController : MonoBehaviour
     {
         if (canMove)
             Move();
+    }
+
+    private void Update()
+    {
+        CheckFloatState();
     }
 
     private void LateUpdate()
@@ -143,6 +149,30 @@ public class PlayerController : MonoBehaviour
     void SetJumpFalse()
     {
         isJumping = false;
+    }
+
+    public void CheckFloatState()
+    {
+        if(Mathf.Abs(_rigidbody.velocity.y) > 1f)
+        {
+            isFloat = true;
+            CharacterManager.Instance.Player.animationHandler.Float(isFloat);
+        }
+
+        if(isFloat)
+        StartCoroutine(CoroutineIsGround());
+    }
+
+    IEnumerator CoroutineIsGround()
+    {
+        
+        while(!IsGrounded())
+        {
+            yield return null;
+        }
+
+        isFloat = false;
+        CharacterManager.Instance.Player.animationHandler.Float(isFloat);
     }
 
     bool IsGrounded()

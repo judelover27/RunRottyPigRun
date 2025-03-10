@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChildCollider : MonoBehaviour
+public class Spike : MonoBehaviour
 {
     private SpikeTrap parentTrap; // 부모의 SpikeTrap 참조
 
@@ -11,11 +11,11 @@ public class ChildCollider : MonoBehaviour
         parentTrap = GetComponentInParent<SpikeTrap>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
         if (parentTrap != null)
         {
-            parentTrap.OnChildCollision(collision); // 부모의 함수 호출
+            parentTrap.OnChildTrigger(other); // 부모의 함수 호출
         }
     }
 }

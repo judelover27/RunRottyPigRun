@@ -5,12 +5,23 @@ using UnityEngine;
 
 public class PlayerAnimationHandler : AnimationHandler
 {
+    protected int _float = Animator.StringToHash("Float");
+
     private bool isMoving;
     private bool isRunning;
     protected override void Start()
     {
         base.Start();
-        CharacterManager.Instance.Player.condition.onTakeDamage += Hit;
+
+        if (CharacterManager.Instance?.Player?.condition != null)
+        {
+            Debug.Log("onTakeDamage 이벤트에 Hit() 등록");
+            CharacterManager.Instance.Player.condition.onTakeDamage += Hit;
+        }
+        else
+        {
+            Debug.LogError("CharacterManager.Instance.Player.condition이 초기화되지 않음!");
+        }
     }
     protected override void Update()
     {
@@ -46,5 +57,14 @@ public class PlayerAnimationHandler : AnimationHandler
     public override void Hit()
     {
         animator.SetTrigger(hit);
+    }
+
+    public void CheckFloat()
+    {
+
+    }
+    public void Float(bool isFloat)
+    {
+        animator.SetBool(_float, isFloat);
     }
 }
