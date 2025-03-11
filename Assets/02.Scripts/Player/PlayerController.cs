@@ -57,14 +57,19 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         if (canMove)
+        {
             Move();
+        }
         else
+        {
             isMove = false;
+        }
     }
 
     private void Update()
     {
         CheckFloatState();
+
     }
 
     private void LateUpdate()
@@ -90,6 +95,17 @@ public class PlayerController : MonoBehaviour
         dir.y = _rigidbody.velocity.y;
         _rigidbody.velocity = dir;
     }
+
+    /*void Move()
+    {
+        Vector3 dir = transform.forward * curMovementInput.y + transform.right * curMovementInput.x;
+
+        if (!canMove) return; 
+
+        float speed = isRun && !UIManager.Instance.condition.stamina.recovering ? runSpeed : moveSpeed;
+
+        _rigidbody.AddForce(new Vector3(dir.x, 0, dir.z) * speed*20f, ForceMode.Acceleration);
+    }*/
 
     void CameraLook()
     {
@@ -239,14 +255,14 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
-    public void OnClimbInput(InputAction.CallbackContext context)
+    /*public void OnClimbInput(InputAction.CallbackContext context)
     {
         if (IsNearWall()) // 벽 감지
         {
             Debug.Log("Climb");
             StartClimbing();
         }
-    }
+    }*/
 
     private bool IsNearWall()
     {

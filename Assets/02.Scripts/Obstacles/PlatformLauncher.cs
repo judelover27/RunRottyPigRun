@@ -1,8 +1,10 @@
 ﻿using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEditor.Timeline.TimelinePlaybackControls;
 
-public class PlatformLauncher : MonoBehaviour
+public class PlatformLauncher : StructureObject
 {
     [Header("Launcher Settings")]
     public Vector3 launchDirection = Vector3.up;
@@ -51,19 +53,37 @@ public class PlatformLauncher : MonoBehaviour
         }
     }
 
-    public void OnLaunchInput(InputAction.CallbackContext context)
+    public override void OnInteract()
     {
-        if (context.phase == InputActionPhase.Performed && isPlayerOnPlatform && playerRigidbody != null)
+        if (isPlayerOnPlatform && playerRigidbody != null)
         {
             LaunchPlayer();
         }
     }
 
+
     private void LaunchPlayer()
     {
-        playerRigidbody.velocity = Vector3.zero; // 기존 속도 초기화
-        playerRigidbody.AddForce((launchDirection + CharacterManager.Instance.Player.transform.forward).normalized * launchForce, ForceMode.Impulse);
+        playerRigidbody.velocity = Vector3.zero;
+        CharacterManager.Instance.Player.controller.canMove = false;
+        playerRigidbody.AddForce(launchDirection.normalized * launchForce, ForceMode.Impulse);
+        StartCoroutine(CoroutineLaunch());
+        StartCoroutine(DisableMovementForSeconds(3f)); // 
+
         isPlayerOnPlatform = false;
     }
-}
 
+    IEnumerator CoroutineLaunch()
+    {
+        yield return new WaitForSeconds(0.1f);
+        playerRigidbody.AddForce(transform.forward.normalized * launchForce, ForceMode.Impulse);
+
+    }
+
+    IEnumerator DisableMovementForSeconds(float duration)
+    {
+        
+        yield return new WaitForSeconds(duration);
+        CharacterManager.Instance.Player.controller.canMove = true;
+    }
+}

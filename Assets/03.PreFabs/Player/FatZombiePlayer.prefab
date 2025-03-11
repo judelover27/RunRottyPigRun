@@ -1495,7 +1495,7 @@ MonoBehaviour:
   jumpPower: 15
   groundLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 1847
   climbSpeed: 3
   wallDetectRange: 1
   climbDuration: 1.5
