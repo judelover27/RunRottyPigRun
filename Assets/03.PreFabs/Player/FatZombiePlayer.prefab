@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &140962760776601619
+--- !u!1 &52203136919567682
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,103 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3276115142367622104}
-  m_Layer: 6
-  m_Name: FatZombie_LeftFoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3276115142367622104
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 140962760776601619}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.08741837, y: 0.5656822, z: -0.17390393, w: 0.80132335}
-  m_LocalPosition: {x: -0.37040764, y: 0, z: 8.881784e-18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 494511509345288169}
-  m_Father: {fileID: 711232789251349647}
-  m_LocalEulerAnglesHint: {x: 13.658378, y: 82.80539, z: -18.720392}
---- !u!1 &278344300762592087
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6076893406066784847}
-  m_Layer: 6
-  m_Name: FatZombie_RightUpLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6076893406066784847
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 278344300762592087}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.6056198, w: 0.7957542}
-  m_LocalPosition: {x: 0.1183481, y: -0.10546725, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2491468174492465989}
-  m_Father: {fileID: 2234800241710642110}
-  m_LocalEulerAnglesHint: {x: -22.123198, y: 15.530998, z: 73.28378}
---- !u!1 &345139944021934954
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8890181444659457790}
-  m_Layer: 6
-  m_Name: FatZombie_RightHandThumb1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8890181444659457790
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 345139944021934954}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.27199626, y: -0.11321726, z: -0.18055794, w: 0.93840224}
-  m_LocalPosition: {x: -0.053958934, y: -1.4210854e-16, z: 1.4210854e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5105326006407319823}
-  m_Father: {fileID: 6502136391377342839}
-  m_LocalEulerAnglesHint: {x: 21.512804, y: -27.76109, z: -20.813702}
---- !u!1 &457057177281366680
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5128105414344837344}
+  - component: {fileID: 6380159756133385449}
   m_Layer: 6
   m_Name: FatZombie_RightHandRing3
   m_TagString: Untagged
@@ -112,23 +16,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5128105414344837344
+--- !u!4 &6380159756133385449
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 457057177281366680}
+  m_GameObject: {fileID: 52203136919567682}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.020740733, y: -2.842171e-16, z: -0.0000000014597921}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 506020370748418512}
-  m_Father: {fileID: 5668216620696649068}
+  - {fileID: 2093096675396359826}
+  m_Father: {fileID: 28149550631918666}
   m_LocalEulerAnglesHint: {x: -3.4283717, y: -7.0146246, z: -51.772514}
---- !u!1 &526862840466330743
+--- !u!1 &404770574215722990
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -136,62 +40,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2324115510471310336}
-  - component: {fileID: 4899733737313158971}
+  - component: {fileID: 4370911644988331875}
   m_Layer: 6
-  m_Name: FatZombie_Skel
+  m_Name: FatZombie_RightForeArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2324115510471310336
+--- !u!4 &4370911644988331875
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526862840466330743}
+  m_GameObject: {fileID: 404770574215722990}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0.17829514, z: -0, w: 0.9839771}
+  m_LocalPosition: {x: -0.313034, y: 0, z: -2.6645352e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2234800241710642110}
-  m_Father: {fileID: 1780653270098068129}
-  m_LocalEulerAnglesHint: {x: 15.680069, y: 1.4322292, z: -2.7131407}
---- !u!114 &4899733737313158971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526862840466330743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: 0}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: 
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
---- !u!1 &599649899527177001
+  - {fileID: 3719238836518462427}
+  m_Father: {fileID: 2287294428602413404}
+  m_LocalEulerAnglesHint: {x: 0.000046537127, y: 65.567856, z: -0.000046633795}
+--- !u!1 &728197844829561550
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -199,31 +72,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2970575988666290982}
+  - component: {fileID: 2382485604020982658}
   m_Layer: 6
-  m_Name: FatZombie_RightHandRing1
+  m_Name: FatZombie_RightShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2970575988666290982
+--- !u!4 &2382485604020982658
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599649899527177001}
+  m_GameObject: {fileID: 728197844829561550}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.04141429, y: -0.3638611, z: -0.046122015, w: 0.9293884}
-  m_LocalPosition: {x: -0.0399714, y: -0.012194946, z: -0.060450815}
+  m_LocalRotation: {x: -0.1043989, y: -0.0650426, z: -0.8423076, w: 0.52477443}
+  m_LocalPosition: {x: -0.087392874, y: 0.11309989, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5668216620696649068}
-  m_Father: {fileID: 6502136391377342839}
-  m_LocalEulerAnglesHint: {x: 3.0136528, y: -63.931767, z: -46.769676}
---- !u!1 &1035824580678689595
+  - {fileID: 2287294428602413404}
+  m_Father: {fileID: 8558608289655704457}
+  m_LocalEulerAnglesHint: {x: -17.751408, y: 12.941485, z: -120.20449}
+--- !u!1 &916378629250847406
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,31 +104,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8801805130861446078}
+  - component: {fileID: 8366202367868712335}
   m_Layer: 6
-  m_Name: FatZombie_LeftHandRing3
+  m_Name: FatZombie_LeftHandThumb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8801805130861446078
+--- !u!4 &8366202367868712335
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035824580678689595}
+  m_GameObject: {fileID: 916378629250847406}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.020740733, y: 5.684342e-16, z: -0.0000000014597923}
+  m_LocalRotation: {x: -0.27199626, y: -0.11321726, z: 0.18055794, w: 0.93840224}
+  m_LocalPosition: {x: -0.053958934, y: 0, z: 1.7763567e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5168803024022574413}
-  m_Father: {fileID: 1091061362383782282}
-  m_LocalEulerAnglesHint: {x: 2.2521713, y: -6.4291115, z: 39.16385}
---- !u!1 &1406415758765372577
+  - {fileID: 3990253869613352302}
+  m_Father: {fileID: 5722936663821870563}
+  m_LocalEulerAnglesHint: {x: -33.21945, y: -37.996216, z: 22.441572}
+--- !u!1 &1068118679241007057
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -263,32 +136,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6553764740972714813}
+  - component: {fileID: 3990253869613352302}
   m_Layer: 6
-  m_Name: FatZombie_Mesh
+  m_Name: FatZombie_LeftHandThumb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6553764740972714813
+--- !u!4 &3990253869613352302
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406415758765372577}
+  m_GameObject: {fileID: 1068118679241007057}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.066730835, y: -0.15032753, z: -0.077167355, w: 0.98335844}
+  m_LocalPosition: {x: -0.023982935, y: -2.842171e-16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1271140737847226302}
-  - {fileID: 1758001779996880036}
-  m_Father: {fileID: 1780653270098068129}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1705319943644068692
+  - {fileID: 209271664022346687}
+  m_Father: {fileID: 8366202367868712335}
+  m_LocalEulerAnglesHint: {x: 15.85258, y: -22.368006, z: -14.113557}
+--- !u!1 &1132043798727123865
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -296,33 +168,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7816697882358391462}
+  - component: {fileID: 299376162981971762}
   m_Layer: 6
-  m_Name: FatZombie_Spine2
+  m_Name: FatZombie_LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7816697882358391462
+--- !u!4 &299376162981971762
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1705319943644068692}
+  m_GameObject: {fileID: 1132043798727123865}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.22625417, w: 0.97406834}
-  m_LocalPosition: {x: -0.11399999, y: 2.5313083e-17, z: 0}
+  m_LocalRotation: {x: 0.08741837, y: 0.5656822, z: -0.17390393, w: 0.80132335}
+  m_LocalPosition: {x: -0.37040764, y: 0, z: 8.881784e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 760301014456119899}
-  - {fileID: 7489302528904564488}
-  - {fileID: 8068850645396823146}
-  m_Father: {fileID: 4046833046945090309}
-  m_LocalEulerAnglesHint: {x: -1.096823, y: -0.12779999, z: 27.039154}
---- !u!1 &1874857822577172359
+  - {fileID: 8006574044584010090}
+  m_Father: {fileID: 4814767974435426297}
+  m_LocalEulerAnglesHint: {x: 13.658378, y: 82.80539, z: -18.720392}
+--- !u!1 &1586826510776497001
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -330,31 +200,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8685822048155585962}
+  - component: {fileID: 9030659642092605603}
   m_Layer: 6
-  m_Name: FatZombie_Spine
+  m_Name: FatZombie_LeftArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8685822048155585962
+--- !u!4 &9030659642092605603
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874857822577172359}
+  m_GameObject: {fileID: 1586826510776497001}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.8233994, w: 0.5674623}
-  m_LocalPosition: {x: 0.022426303, y: 0.058873262, z: 0}
+  m_LocalRotation: {x: 0.032457106, y: 0.118643194, z: 0.26187536, w: 0.9572313}
+  m_LocalPosition: {x: -0.09937219, y: -2.842171e-16, z: -1.9984014e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 4046833046945090309}
-  m_Father: {fileID: 2234800241710642110}
-  m_LocalEulerAnglesHint: {x: -2.3389418, y: 5.422692, z: -108.16956}
---- !u!1 &2198805984185639188
+  - {fileID: 2287220115296152079}
+  m_Father: {fileID: 8122885492552023244}
+  m_LocalEulerAnglesHint: {x: -16.859743, y: 23.775385, z: 64.98412}
+--- !u!1 &1793260253396205153
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,62 +232,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4046833046945090309}
+  - component: {fileID: 4519048276321837162}
   m_Layer: 6
-  m_Name: FatZombie_Spine1
+  m_Name: FatZombie_RightToeBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4046833046945090309
+--- !u!4 &4519048276321837162
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2198805984185639188}
+  m_GameObject: {fileID: 1793260253396205153}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.11399999, y: 9.126033e-17, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 7816697882358391462}
-  m_Father: {fileID: 8685822048155585962}
-  m_LocalEulerAnglesHint: {x: -1.1276542, y: -0.112847805, z: 0.87940717}
---- !u!1 &2232909016614071156
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5168803024022574413}
-  m_Layer: 6
-  m_Name: FatZombie_LeftHandRing4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5168803024022574413
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2232909016614071156}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.072771244, y: -0.16276826, z: -0.40161067, w: 0.8982871}
-  m_LocalPosition: {x: -0.017310126, y: -4.2632563e-16, z: -0.000000007692506}
+  m_LocalRotation: {x: -0.4404962, y: 0.26551327, z: 0.73452145, w: -0.44265568}
+  m_LocalPosition: {x: -0.12950039, y: 7.105427e-17, z: -9.7699626e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8801805130861446078}
+  m_Father: {fileID: 8748749403420071271}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2333539162491579367
+--- !u!1 &1821944230303120516
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -425,9 +263,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 471089115404614461}
-  - component: {fileID: 5063038251095807882}
-  - component: {fileID: 1417965732062959177}
+  - component: {fileID: 8006574044584010090}
+  m_Layer: 6
+  m_Name: FatZombie_LeftToeBase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8006574044584010090
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821944230303120516}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.26549473, y: -0.440527, z: -0.44266683, w: 0.734503}
+  m_LocalPosition: {x: -0.12950039, y: 3.5527136e-17, z: -8.881784e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 299376162981971762}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1828614326222791194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8669254678445819010}
+  - component: {fileID: 6164863111823533327}
+  - component: {fileID: 6801307800332339762}
   m_Layer: 6
   m_Name: CameraFirstPerception
   m_TagString: MainCamera
@@ -435,28 +304,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!4 &471089115404614461
+--- !u!4 &8669254678445819010
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2333539162491579367}
+  m_GameObject: {fileID: 1828614326222791194}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.000000014901159, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3612092930184286763}
+  m_Father: {fileID: 6176568529509129476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &5063038251095807882
+--- !u!20 &6164863111823533327
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2333539162491579367}
+  m_GameObject: {fileID: 1828614326222791194}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -501,15 +370,15 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &1417965732062959177
+--- !u!81 &6801307800332339762
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2333539162491579367}
+  m_GameObject: {fileID: 1828614326222791194}
   m_Enabled: 1
---- !u!1 &2367269484368465647
+--- !u!1 &2023141274564956126
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -517,346 +386,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5105326006407319823}
+  - component: {fileID: 5375534412863611714}
   m_Layer: 6
-  m_Name: FatZombie_RightHandThumb2
+  m_Name: Drop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5105326006407319823
+--- !u!4 &5375534412863611714
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2367269484368465647}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.066730835, y: -0.15032753, z: 0.077167355, w: 0.98335844}
-  m_LocalPosition: {x: -0.023982935, y: 0, z: -1.4210854e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6367771990698925134}
-  m_Father: {fileID: 8890181444659457790}
-  m_LocalEulerAnglesHint: {x: -12.188199, y: -27.663204, z: 13.765779}
---- !u!1 &2472516743974947973
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5482419299967655658}
-  m_Layer: 6
-  m_Name: FatZombie_RightArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5482419299967655658
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2472516743974947973}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.032457866, y: 0.11864298, z: -0.26187542, w: 0.9572312}
-  m_LocalPosition: {x: -0.09937219, y: 2.1316282e-14, z: 2.4424906e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8729444413738946737}
-  m_Father: {fileID: 8068850645396823146}
-  m_LocalEulerAnglesHint: {x: 6.735482, y: 37.23465, z: -74.388664}
---- !u!1 &2720023284580465193
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6688771610059042950}
-  m_Layer: 6
-  m_Name: FatZombie_LeftForeArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6688771610059042950
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2720023284580465193}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.17829514, z: -0, w: 0.9839771}
-  m_LocalPosition: {x: -0.313034, y: 2.842171e-16, z: -3.5527136e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1588182601698759854}
-  m_Father: {fileID: 2232390595468060293}
-  m_LocalEulerAnglesHint: {x: -0.000006557194, y: 27.729393, z: 0.000028280741}
---- !u!1 &2844819452804979702
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1758001779996880036}
-  - component: {fileID: 728805708450301488}
-  m_Layer: 6
-  m_Name: FatZombie_LOD1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1758001779996880036
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2844819452804979702}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6553764740972714813}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &728805708450301488
-SkinnedMeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2844819452804979702}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 3
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9716cbd1410dc004ea62978057f7e59e, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  serializedVersion: 2
-  m_Quality: 0
-  m_UpdateWhenOffscreen: 0
-  m_SkinnedMotionVectors: 1
-  m_Mesh: {fileID: -7101452109182289628, guid: 4b11d0901d1e3f04da6b00a4ff5d74dd, type: 3}
-  m_Bones:
-  - {fileID: 2234800241710642110}
-  - {fileID: 6152332919380680800}
-  - {fileID: 711232789251349647}
-  - {fileID: 3276115142367622104}
-  - {fileID: 494511509345288169}
-  - {fileID: 6076893406066784847}
-  - {fileID: 2491468174492465989}
-  - {fileID: 1186976923709122080}
-  - {fileID: 6703130865321412135}
-  - {fileID: 8685822048155585962}
-  - {fileID: 4046833046945090309}
-  - {fileID: 7816697882358391462}
-  - {fileID: 760301014456119899}
-  - {fileID: 2232390595468060293}
-  - {fileID: 6688771610059042950}
-  - {fileID: 1588182601698759854}
-  - {fileID: 642949490339657098}
-  - {fileID: 8439175604588157107}
-  - {fileID: 9076589156103475634}
-  - {fileID: 665850026560256966}
-  - {fileID: 1120080521524799159}
-  - {fileID: 1091061362383782282}
-  - {fileID: 8801805130861446078}
-  - {fileID: 5168803024022574413}
-  - {fileID: 8068850645396823146}
-  - {fileID: 5482419299967655658}
-  - {fileID: 8729444413738946737}
-  - {fileID: 6502136391377342839}
-  - {fileID: 8890181444659457790}
-  - {fileID: 5105326006407319823}
-  - {fileID: 6367771990698925134}
-  - {fileID: 1054170377009327913}
-  - {fileID: 2970575988666290982}
-  - {fileID: 5668216620696649068}
-  - {fileID: 5128105414344837344}
-  - {fileID: 506020370748418512}
-  - {fileID: 7489302528904564488}
-  - {fileID: 3775661617829753719}
-  m_BlendShapeWeights: []
-  m_RootBone: {fileID: 2234800241710642110}
-  m_AABB:
-    m_Center: {x: 0.015107393, y: -0.11458498, z: 0.06340675}
-    m_Extent: {x: 0.71589893, y: 0.89387375, z: 0.33606166}
-  m_DirtyAABB: 0
---- !u!1 &2876397617600040022
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3612092930184286763}
-  m_Layer: 6
-  m_Name: CameraContainer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &3612092930184286763
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2876397617600040022}
+  m_GameObject: {fileID: 2023141274564956126}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 471089115404614461}
-  - {fileID: 5885129236285981182}
-  m_Father: {fileID: 1780653270098068129}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2896153978087079511
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6152332919380680800}
-  m_Layer: 6
-  m_Name: FatZombie_LeftUpLeg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6152332919380680800
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2896153978087079511}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.52804494, w: 0.84921646}
-  m_LocalPosition: {x: -0.15852323, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 711232789251349647}
-  m_Father: {fileID: 2234800241710642110}
-  m_LocalEulerAnglesHint: {x: -25.216778, y: -0.26883364, z: 67.809296}
---- !u!1 &3300880163794455209
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1186976923709122080}
-  m_Layer: 6
-  m_Name: FatZombie_RightFoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1186976923709122080
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3300880163794455209}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.08741837, y: 0.5656822, z: 0.17390393, w: 0.80132335}
-  m_LocalPosition: {x: -0.37040764, y: 1.0658141e-16, z: 5.3290704e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6703130865321412135}
-  m_Father: {fileID: 2491468174492465989}
-  m_LocalEulerAnglesHint: {x: -16.311193, y: 90.07775, z: 19.15988}
---- !u!1 &3705975053731905918
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1054170377009327913}
-  m_Layer: 6
-  m_Name: FatZombie_RightHandThumb4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1054170377009327913
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3705975053731905918}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.23031159, y: -0.15386629, z: -0.79897565, w: 0.53377867}
-  m_LocalPosition: {x: -0.024000715, y: -0.00000010745292, z: -0.0000001934454}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6367771990698925134}
+  m_Father: {fileID: 7076559638733302049}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &3933193345906542145
+--- !u!1 &2060754980841813175
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -864,31 +417,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 711232789251349647}
+  - component: {fileID: 2138804298798820419}
   m_Layer: 6
-  m_Name: FatZombie_LeftLeg
+  m_Name: FatZombie_RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &711232789251349647
+--- !u!4 &2138804298798820419
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3933193345906542145}
+  m_GameObject: {fileID: 2060754980841813175}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.07438483, z: -0, w: 0.99722964}
-  m_LocalPosition: {x: -0.4039078, y: 3.5527136e-17, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.6056198, w: 0.7957542}
+  m_LocalPosition: {x: 0.1183481, y: -0.10546725, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3276115142367622104}
-  m_Father: {fileID: 6152332919380680800}
-  m_LocalEulerAnglesHint: {x: -5.027895, y: -21.632105, z: -0.671358}
---- !u!1 &4312106028023938732
+  - {fileID: 2819823897135415095}
+  m_Father: {fileID: 4659797439984852023}
+  m_LocalEulerAnglesHint: {x: -22.123198, y: 15.530998, z: 73.28378}
+--- !u!1 &2087910785571807459
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -896,31 +449,32 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7489302528904564488}
+  - component: {fileID: 4503040229104003809}
   m_Layer: 6
-  m_Name: FatZombie_Neck
+  m_Name: FatZombie_Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7489302528904564488
+--- !u!4 &4503040229104003809
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4312106028023938732}
+  m_GameObject: {fileID: 2087910785571807459}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.22625417, w: 0.97406834}
-  m_LocalPosition: {x: -0.10232846, y: 0.050248235, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3775661617829753719}
-  m_Father: {fileID: 7816697882358391462}
-  m_LocalEulerAnglesHint: {x: -5.2253256, y: -8.04704, z: -28.054777}
---- !u!1 &4808533259598900046
+  - {fileID: 4713162983055454380}
+  - {fileID: 7842349628553596736}
+  m_Father: {fileID: 7076559638733302049}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2348353224156624450
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -928,31 +482,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2491468174492465989}
+  - component: {fileID: 8122885492552023244}
   m_Layer: 6
-  m_Name: FatZombie_RightLeg
+  m_Name: FatZombie_LeftShoulder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2491468174492465989
+--- !u!4 &8122885492552023244
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4808533259598900046}
+  m_GameObject: {fileID: 2348353224156624450}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.07438483, z: -0, w: 0.99722964}
-  m_LocalPosition: {x: -0.4039078, y: 3.5527136e-17, z: 0}
+  m_LocalRotation: {x: 0.06504193, y: -0.104399316, z: 0.5247637, w: 0.8423143}
+  m_LocalPosition: {x: -0.1429304, y: 7.105427e-17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1186976923709122080}
-  m_Father: {fileID: 6076893406066784847}
-  m_LocalEulerAnglesHint: {x: 8.547362, y: -31.305248, z: -2.6503587}
---- !u!1 &5153527155139644661
+  - {fileID: 9030659642092605603}
+  m_Father: {fileID: 8558608289655704457}
+  m_LocalEulerAnglesHint: {x: 15.713537, y: -5.87383, z: 61.512245}
+--- !u!1 &2368731584925868499
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -960,40 +514,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8729444413738946737}
-  m_Layer: 6
-  m_Name: FatZombie_RightForeArm
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8729444413738946737
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5153527155139644661}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.17829514, z: -0, w: 0.9839771}
-  m_LocalPosition: {x: -0.313034, y: 0, z: -2.6645352e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6502136391377342839}
-  m_Father: {fileID: 5482419299967655658}
-  m_LocalEulerAnglesHint: {x: 0.000046537127, y: 65.567856, z: -0.000046633795}
---- !u!1 &5234971199274349208
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1271140737847226302}
-  - component: {fileID: 5828162184184152854}
+  - component: {fileID: 4713162983055454380}
+  - component: {fileID: 2803528403236507789}
   m_Layer: 6
   m_Name: FatZombie_LOD0
   m_TagString: Untagged
@@ -1001,28 +523,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1271140737847226302
+--- !u!4 &4713162983055454380
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5234971199274349208}
+  m_GameObject: {fileID: 2368731584925868499}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6553764740972714813}
+  m_Father: {fileID: 4503040229104003809}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!137 &5828162184184152854
+--- !u!137 &2803528403236507789
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5234971199274349208}
+  m_GameObject: {fileID: 2368731584925868499}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -1063,51 +585,51 @@ SkinnedMeshRenderer:
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: -7904512478312986290, guid: 4b11d0901d1e3f04da6b00a4ff5d74dd, type: 3}
   m_Bones:
-  - {fileID: 2234800241710642110}
-  - {fileID: 6152332919380680800}
-  - {fileID: 711232789251349647}
-  - {fileID: 3276115142367622104}
-  - {fileID: 494511509345288169}
-  - {fileID: 6076893406066784847}
-  - {fileID: 2491468174492465989}
-  - {fileID: 1186976923709122080}
-  - {fileID: 6703130865321412135}
-  - {fileID: 8685822048155585962}
-  - {fileID: 4046833046945090309}
-  - {fileID: 7816697882358391462}
-  - {fileID: 760301014456119899}
-  - {fileID: 2232390595468060293}
-  - {fileID: 6688771610059042950}
-  - {fileID: 1588182601698759854}
-  - {fileID: 642949490339657098}
-  - {fileID: 8439175604588157107}
-  - {fileID: 9076589156103475634}
-  - {fileID: 665850026560256966}
-  - {fileID: 1120080521524799159}
-  - {fileID: 1091061362383782282}
-  - {fileID: 8801805130861446078}
-  - {fileID: 5168803024022574413}
-  - {fileID: 8068850645396823146}
-  - {fileID: 5482419299967655658}
-  - {fileID: 8729444413738946737}
-  - {fileID: 6502136391377342839}
-  - {fileID: 8890181444659457790}
-  - {fileID: 5105326006407319823}
-  - {fileID: 6367771990698925134}
-  - {fileID: 1054170377009327913}
-  - {fileID: 2970575988666290982}
-  - {fileID: 5668216620696649068}
-  - {fileID: 5128105414344837344}
-  - {fileID: 506020370748418512}
-  - {fileID: 7489302528904564488}
-  - {fileID: 3775661617829753719}
+  - {fileID: 4659797439984852023}
+  - {fileID: 5574270491243661058}
+  - {fileID: 4814767974435426297}
+  - {fileID: 299376162981971762}
+  - {fileID: 8006574044584010090}
+  - {fileID: 2138804298798820419}
+  - {fileID: 2819823897135415095}
+  - {fileID: 8748749403420071271}
+  - {fileID: 4519048276321837162}
+  - {fileID: 7039479075070226112}
+  - {fileID: 4619090185847002592}
+  - {fileID: 8558608289655704457}
+  - {fileID: 8122885492552023244}
+  - {fileID: 9030659642092605603}
+  - {fileID: 2287220115296152079}
+  - {fileID: 5722936663821870563}
+  - {fileID: 8366202367868712335}
+  - {fileID: 3990253869613352302}
+  - {fileID: 209271664022346687}
+  - {fileID: 8611196209495205560}
+  - {fileID: 2093541295372351624}
+  - {fileID: 2493876343741315185}
+  - {fileID: 5439494403495931577}
+  - {fileID: 6586351244273019452}
+  - {fileID: 2382485604020982658}
+  - {fileID: 2287294428602413404}
+  - {fileID: 4370911644988331875}
+  - {fileID: 3719238836518462427}
+  - {fileID: 2335981586632387065}
+  - {fileID: 3041395248603667459}
+  - {fileID: 8783216454828769007}
+  - {fileID: 8495058210573664890}
+  - {fileID: 8441321887742752524}
+  - {fileID: 28149550631918666}
+  - {fileID: 6380159756133385449}
+  - {fileID: 2093096675396359826}
+  - {fileID: 5029135495305177393}
+  - {fileID: 3949527148478500173}
   m_BlendShapeWeights: []
-  m_RootBone: {fileID: 2234800241710642110}
+  m_RootBone: {fileID: 4659797439984852023}
   m_AABB:
     m_Center: {x: 0.016426861, y: -0.118974745, z: 0.063543424}
     m_Extent: {x: 0.71784174, y: 0.8982635, z: 0.3370645}
   m_DirtyAABB: 0
---- !u!1 &5323345332619032401
+--- !u!1 &2372182007621424421
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1115,9 +637,1211 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5885129236285981182}
-  - component: {fileID: 6462562721533149653}
-  - component: {fileID: 3123331766432964949}
+  - component: {fileID: 4508002765390900892}
+  - component: {fileID: 647369146017887945}
+  m_Layer: 6
+  m_Name: FatZombie_Skel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4508002765390900892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372182007621424421}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4659797439984852023}
+  m_Father: {fileID: 7076559638733302049}
+  m_LocalEulerAnglesHint: {x: 15.680069, y: 1.4322292, z: -2.7131407}
+--- !u!114 &647369146017887945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372182007621424421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: 0}
+  m_NotificationBehavior: 0
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents: []
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}
+--- !u!1 &2732170736038548942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7842349628553596736}
+  - component: {fileID: 4014798136987183999}
+  m_Layer: 6
+  m_Name: FatZombie_LOD1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &7842349628553596736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2732170736038548942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4503040229104003809}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4014798136987183999
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2732170736038548942}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9716cbd1410dc004ea62978057f7e59e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -7101452109182289628, guid: 4b11d0901d1e3f04da6b00a4ff5d74dd, type: 3}
+  m_Bones:
+  - {fileID: 4659797439984852023}
+  - {fileID: 5574270491243661058}
+  - {fileID: 4814767974435426297}
+  - {fileID: 299376162981971762}
+  - {fileID: 8006574044584010090}
+  - {fileID: 2138804298798820419}
+  - {fileID: 2819823897135415095}
+  - {fileID: 8748749403420071271}
+  - {fileID: 4519048276321837162}
+  - {fileID: 7039479075070226112}
+  - {fileID: 4619090185847002592}
+  - {fileID: 8558608289655704457}
+  - {fileID: 8122885492552023244}
+  - {fileID: 9030659642092605603}
+  - {fileID: 2287220115296152079}
+  - {fileID: 5722936663821870563}
+  - {fileID: 8366202367868712335}
+  - {fileID: 3990253869613352302}
+  - {fileID: 209271664022346687}
+  - {fileID: 8611196209495205560}
+  - {fileID: 2093541295372351624}
+  - {fileID: 2493876343741315185}
+  - {fileID: 5439494403495931577}
+  - {fileID: 6586351244273019452}
+  - {fileID: 2382485604020982658}
+  - {fileID: 2287294428602413404}
+  - {fileID: 4370911644988331875}
+  - {fileID: 3719238836518462427}
+  - {fileID: 2335981586632387065}
+  - {fileID: 3041395248603667459}
+  - {fileID: 8783216454828769007}
+  - {fileID: 8495058210573664890}
+  - {fileID: 8441321887742752524}
+  - {fileID: 28149550631918666}
+  - {fileID: 6380159756133385449}
+  - {fileID: 2093096675396359826}
+  - {fileID: 5029135495305177393}
+  - {fileID: 3949527148478500173}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 4659797439984852023}
+  m_AABB:
+    m_Center: {x: 0.015107393, y: -0.11458498, z: 0.06340675}
+    m_Extent: {x: 0.71589893, y: 0.89387375, z: 0.33606166}
+  m_DirtyAABB: 0
+--- !u!1 &2781744873931538587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8783216454828769007}
+  m_Layer: 6
+  m_Name: FatZombie_RightHandThumb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8783216454828769007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2781744873931538587}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.022888264, y: 2.842171e-16, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8495058210573664890}
+  m_Father: {fileID: 3041395248603667459}
+  m_LocalEulerAnglesHint: {x: 0.5818269, y: 23.42476, z: 14.094467}
+--- !u!1 &3210899135695803139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2287220115296152079}
+  m_Layer: 6
+  m_Name: FatZombie_LeftForeArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2287220115296152079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3210899135695803139}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.17829514, z: -0, w: 0.9839771}
+  m_LocalPosition: {x: -0.313034, y: 2.842171e-16, z: -3.5527136e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5722936663821870563}
+  m_Father: {fileID: 9030659642092605603}
+  m_LocalEulerAnglesHint: {x: -0.000006557194, y: 27.729393, z: 0.000028280741}
+--- !u!1 &3317430822462016953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4619090185847002592}
+  m_Layer: 6
+  m_Name: FatZombie_Spine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4619090185847002592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317430822462016953}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.11399999, y: 9.126033e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8558608289655704457}
+  m_Father: {fileID: 7039479075070226112}
+  m_LocalEulerAnglesHint: {x: -1.1276542, y: -0.112847805, z: 0.87940717}
+--- !u!1 &3370403851224113906
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093541295372351624}
+  m_Layer: 6
+  m_Name: FatZombie_LeftHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2093541295372351624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3370403851224113906}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.04141429, y: -0.3638611, z: 0.046122015, w: 0.9293884}
+  m_LocalPosition: {x: -0.0399714, y: 0.012194946, z: -0.060450815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2493876343741315185}
+  m_Father: {fileID: 5722936663821870563}
+  m_LocalEulerAnglesHint: {x: 0.5176122, y: -68.050995, z: 56.78721}
+--- !u!1 &3537769484138895531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4659797439984852023}
+  m_Layer: 6
+  m_Name: FatZombie_Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4659797439984852023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3537769484138895531}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.18097486, w: 0.9834877}
+  m_LocalPosition: {x: -0, y: 0.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5574270491243661058}
+  - {fileID: 2138804298798820419}
+  - {fileID: 7039479075070226112}
+  m_Father: {fileID: 4508002765390900892}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20.853092}
+--- !u!1 &3766501412427556208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8441321887742752524}
+  m_Layer: 6
+  m_Name: FatZombie_RightHandRing1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8441321887742752524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3766501412427556208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.04141429, y: -0.3638611, z: -0.046122015, w: 0.9293884}
+  m_LocalPosition: {x: -0.0399714, y: -0.012194946, z: -0.060450815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 28149550631918666}
+  m_Father: {fileID: 3719238836518462427}
+  m_LocalEulerAnglesHint: {x: 3.0136528, y: -63.931767, z: -46.769676}
+--- !u!1 &4064377255572139110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6586351244273019452}
+  m_Layer: 6
+  m_Name: FatZombie_LeftHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6586351244273019452
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4064377255572139110}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.072771244, y: -0.16276826, z: -0.40161067, w: 0.8982871}
+  m_LocalPosition: {x: -0.017310126, y: -4.2632563e-16, z: -0.000000007692506}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5439494403495931577}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4674864338640122719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7076559638733302049}
+  - component: {fileID: 5301104683169795897}
+  - component: {fileID: 3486942715133982048}
+  - component: {fileID: 8940825858785947139}
+  - component: {fileID: 8051276590338707588}
+  - component: {fileID: 2182795028182867327}
+  - component: {fileID: 5824404200505327852}
+  - component: {fileID: 3400097059868560701}
+  - component: {fileID: 2085697097628528551}
+  - component: {fileID: 7410680615244662274}
+  m_Layer: 6
+  m_Name: FatZombiePlayer
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7076559638733302049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4503040229104003809}
+  - {fileID: 4508002765390900892}
+  - {fileID: 6176568529509129476}
+  - {fileID: 5375534412863611714}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &5301104683169795897
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d12e48dabc778f945a77e132e20b0d9d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &3486942715133982048
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.35
+  m_Height: 1.6
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.8, z: 0}
+--- !u!54 &8940825858785947139
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  serializedVersion: 4
+  m_Mass: 5
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!114 &8051276590338707588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c470c0b62411ed41bad55d368f6ae79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 0}
+  condition: {fileID: 0}
+  animationHandler: {fileID: 0}
+  interaction: {fileID: 0}
+  headGear: {fileID: 0}
+  weapon: {fileID: 0}
+  itemData: {fileID: 0}
+  dropPosition: {fileID: 5375534412863611714}
+--- !u!114 &2182795028182867327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e566cda85b1ed40be42a4935ad777f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noHungerHealthDecay: 0
+--- !u!114 &5824404200505327852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c4cbf16d550d44e83a0583d5e22dc9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 1
+  runSpeed: 3
+  runStamina: 10
+  jumpStamina: 20
+  isMove: 0
+  isRun: 0
+  isFloat: 0
+  canMove: 1
+  onLaunch: 0
+  jumpPower: 15
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 1847
+  climbSpeed: 3
+  wallDetectRange: 1
+  climbDuration: 1.5
+  headOffset: 0.3
+  wallLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  head: {fileID: 0}
+  cameraContainer: {fileID: 6176568529509129476}
+  minXLook: -85
+  maxXLook: 85
+  camYRot: -15
+  lookSensitivity: 0.3
+  canLook: 1
+  _rigidbody: {fileID: 0}
+--- !u!114 &3400097059868560701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: bf23fb7947ed4d746930dd800edf06f3, type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5824404200505327852}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnMoveInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: d69b73b7-8258-4df5-90ad-75e81691bc6b
+    m_ActionName: PlayerAction/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5824404200505327852}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnLookInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3002722f-8ed1-4642-a6b6-227416f934cc
+    m_ActionName: PlayerAction/Look[/Mouse/delta]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5824404200505327852}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnJumpInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 37194132-ee5d-4af1-b66c-7284c2d18f98
+    m_ActionName: PlayerAction/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7410680615244662274}
+        m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
+        m_MethodName: OnInteractInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 446e9e4a-a24e-4b01-bf27-e8516c3c1131
+    m_ActionName: PlayerAction/Interaction[/Keyboard/e]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5824404200505327852}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnRunInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a8547993-1861-420f-92e2-4bdb204c027a
+    m_ActionName: PlayerAction/New action[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 267ab7ee-4f78-42eb-940c-b4499a5a5014
+    m_ActionName: UIInputAction/EscapeMenu[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 956172e2-68e7-4347-af3c-bedbb378cf23
+    m_ActionName: UIInputAction/TabMenu[/Keyboard/tab]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: PlayerAction
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 5846238691285585894}
+--- !u!114 &2085697097628528551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6ba47a451a9cf4e9a3b4acf5990094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+--- !u!114 &7410680615244662274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4674864338640122719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3932e03d62fcada45b6b56dfa4e4628c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkRate: 0.05
+  maxCheckDistance: 3
+  layerMask:
+    serializedVersion: 2
+    m_Bits: 768
+  curInteractGameObject: {fileID: 0}
+  promptText: {fileID: 0}
+  backGround: {fileID: 0}
+  camera: {fileID: 0}
+  cameraThird: {fileID: 5846238691285585894}
+  cameraFirst: {fileID: 6164863111823533327}
+--- !u!1 &4685484413489889401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3041395248603667459}
+  m_Layer: 6
+  m_Name: FatZombie_RightHandThumb2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3041395248603667459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4685484413489889401}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.066730835, y: -0.15032753, z: 0.077167355, w: 0.98335844}
+  m_LocalPosition: {x: -0.023982935, y: 0, z: -1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8783216454828769007}
+  m_Father: {fileID: 2335981586632387065}
+  m_LocalEulerAnglesHint: {x: -12.188199, y: -27.663204, z: 13.765779}
+--- !u!1 &5035153525785793367
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8611196209495205560}
+  m_Layer: 6
+  m_Name: FatZombie_LeftHandThumb4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8611196209495205560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035153525785793367}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.15389812, y: -0.23029034, z: -0.5338891, w: 0.7989019}
+  m_LocalPosition: {x: -0.024000715, y: 0.00000010745292, z: -0.0000001934454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 209271664022346687}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5053730497206782301
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6176568529509129476}
+  m_Layer: 6
+  m_Name: CameraContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6176568529509129476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5053730497206782301}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8669254678445819010}
+  - {fileID: 4767638656807746292}
+  m_Father: {fileID: 7076559638733302049}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5205087235184243852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5722936663821870563}
+  m_Layer: 6
+  m_Name: FatZombie_LeftHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5722936663821870563
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5205087235184243852}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.061230484, y: 0.36302793, z: 0.0681908, w: 0.9272603}
+  m_LocalPosition: {x: -0.24027433, y: -3.9790393e-15, z: -7.105427e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2093541295372351624}
+  - {fileID: 8366202367868712335}
+  m_Father: {fileID: 2287220115296152079}
+  m_LocalEulerAnglesHint: {x: -11.153562, y: 59.697357, z: 26.265154}
+--- !u!1 &5443243509380175227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5574270491243661058}
+  m_Layer: 6
+  m_Name: FatZombie_LeftUpLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5574270491243661058
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5443243509380175227}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.52804494, w: 0.84921646}
+  m_LocalPosition: {x: -0.15852323, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4814767974435426297}
+  m_Father: {fileID: 4659797439984852023}
+  m_LocalEulerAnglesHint: {x: -25.216778, y: -0.26883364, z: 67.809296}
+--- !u!1 &5745558854824328609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2493876343741315185}
+  m_Layer: 6
+  m_Name: FatZombie_LeftHandRing2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2493876343741315185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5745558854824328609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.04083983, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5439494403495931577}
+  m_Father: {fileID: 2093541295372351624}
+  m_LocalEulerAnglesHint: {x: 2.819478, y: -7.0726833, z: 43.95971}
+--- !u!1 &5812874836784960948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5029135495305177393}
+  m_Layer: 6
+  m_Name: FatZombie_Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5029135495305177393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5812874836784960948}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: -0.22625417, w: 0.97406834}
+  m_LocalPosition: {x: -0.10232846, y: 0.050248235, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3949527148478500173}
+  m_Father: {fileID: 8558608289655704457}
+  m_LocalEulerAnglesHint: {x: -5.2253256, y: -8.04704, z: -28.054777}
+--- !u!1 &6261424139994128654
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 209271664022346687}
+  m_Layer: 6
+  m_Name: FatZombie_LeftHandThumb3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &209271664022346687
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6261424139994128654}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.022888264, y: -2.842171e-16, z: -3.5527135e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8611196209495205560}
+  m_Father: {fileID: 3990253869613352302}
+  m_LocalEulerAnglesHint: {x: -1.9543965, y: 12.5699835, z: -15.926174}
+--- !u!1 &6561576824193280933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2335981586632387065}
+  m_Layer: 6
+  m_Name: FatZombie_RightHandThumb1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2335981586632387065
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561576824193280933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.27199626, y: -0.11321726, z: -0.18055794, w: 0.93840224}
+  m_LocalPosition: {x: -0.053958934, y: -1.4210854e-16, z: 1.4210854e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3041395248603667459}
+  m_Father: {fileID: 3719238836518462427}
+  m_LocalEulerAnglesHint: {x: 21.512804, y: -27.76109, z: -20.813702}
+--- !u!1 &6740649865351156430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3719238836518462427}
+  m_Layer: 6
+  m_Name: FatZombie_RightHand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3719238836518462427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6740649865351156430}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.061230484, y: 0.36302793, z: -0.0681908, w: 0.9272603}
+  m_LocalPosition: {x: -0.24027433, y: 3.9790393e-15, z: 3.5527136e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8441321887742752524}
+  - {fileID: 2335981586632387065}
+  m_Father: {fileID: 4370911644988331875}
+  m_LocalEulerAnglesHint: {x: 12.586484, y: 72.88404, z: 1.4374768}
+--- !u!1 &6888656287397855213
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2819823897135415095}
+  m_Layer: 6
+  m_Name: FatZombie_RightLeg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2819823897135415095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6888656287397855213}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.07438483, z: -0, w: 0.99722964}
+  m_LocalPosition: {x: -0.4039078, y: 3.5527136e-17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8748749403420071271}
+  m_Father: {fileID: 2138804298798820419}
+  m_LocalEulerAnglesHint: {x: 8.547362, y: -31.305248, z: -2.6503587}
+--- !u!1 &7027690935048464161
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8748749403420071271}
+  m_Layer: 6
+  m_Name: FatZombie_RightFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8748749403420071271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7027690935048464161}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.08741837, y: 0.5656822, z: 0.17390393, w: 0.80132335}
+  m_LocalPosition: {x: -0.37040764, y: 1.0658141e-16, z: 5.3290704e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4519048276321837162}
+  m_Father: {fileID: 2819823897135415095}
+  m_LocalEulerAnglesHint: {x: -16.311193, y: 90.07775, z: 19.15988}
+--- !u!1 &7167676762155435953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5439494403495931577}
+  m_Layer: 6
+  m_Name: FatZombie_LeftHandRing3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5439494403495931577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7167676762155435953}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.020740733, y: 5.684342e-16, z: -0.0000000014597923}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6586351244273019452}
+  m_Father: {fileID: 2493876343741315185}
+  m_LocalEulerAnglesHint: {x: 2.2521713, y: -6.4291115, z: 39.16385}
+--- !u!1 &7625549078117662313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2093096675396359826}
+  m_Layer: 6
+  m_Name: FatZombie_RightHandRing4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2093096675396359826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7625549078117662313}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.16283254, y: 0.072627306, z: 0.8986418, w: -0.4008163}
+  m_LocalPosition: {x: -0.017310126, y: -1.4210854e-16, z: -0.000000007692507}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6380159756133385449}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7827856444996513712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4767638656807746292}
+  - component: {fileID: 5846238691285585894}
+  - component: {fileID: 6985185819374419470}
   m_Layer: 6
   m_Name: CameraThirdPerception
   m_TagString: MainCamera
@@ -1125,28 +1849,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5885129236285981182
+--- !u!4 &4767638656807746292
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5323345332619032401}
+  m_GameObject: {fileID: 7827856444996513712}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.5, y: 0, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 3612092930184286763}
+  m_Father: {fileID: 6176568529509129476}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &6462562721533149653
+--- !u!20 &5846238691285585894
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5323345332619032401}
+  m_GameObject: {fileID: 7827856444996513712}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -1191,15 +1915,15 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &3123331766432964949
+--- !u!81 &6985185819374419470
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5323345332619032401}
+  m_GameObject: {fileID: 7827856444996513712}
   m_Enabled: 1
---- !u!1 &5609801663218195355
+--- !u!1 &7991975713364097755
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1207,62 +1931,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6470623501669105839}
+  - component: {fileID: 7039479075070226112}
   m_Layer: 6
-  m_Name: Drop
+  m_Name: FatZombie_Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6470623501669105839
+--- !u!4 &7039479075070226112
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5609801663218195355}
+  m_GameObject: {fileID: 7991975713364097755}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1780653270098068129}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6020050592638466166
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6367771990698925134}
-  m_Layer: 6
-  m_Name: FatZombie_RightHandThumb3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6367771990698925134
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6020050592638466166}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.022888264, y: 2.842171e-16, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: -0.8233994, w: 0.5674623}
+  m_LocalPosition: {x: 0.022426303, y: 0.058873262, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1054170377009327913}
-  m_Father: {fileID: 5105326006407319823}
-  m_LocalEulerAnglesHint: {x: 0.5818269, y: 23.42476, z: 14.094467}
---- !u!1 &6122401640483945846
+  - {fileID: 4619090185847002592}
+  m_Father: {fileID: 4659797439984852023}
+  m_LocalEulerAnglesHint: {x: -2.3389418, y: 5.422692, z: -108.16956}
+--- !u!1 &8002838133458161857
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1270,7 +1963,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3775661617829753719}
+  - component: {fileID: 3949527148478500173}
   m_Layer: 7
   m_Name: FatZombie_Head
   m_TagString: Untagged
@@ -1278,22 +1971,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3775661617829753719
+--- !u!4 &3949527148478500173
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6122401640483945846}
+  m_GameObject: {fileID: 8002838133458161857}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.15188302, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7489302528904564488}
+  m_Father: {fileID: 5029135495305177393}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6125972702602728372
+--- !u!1 &8179022722303400024
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1301,31 +1994,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1091061362383782282}
+  - component: {fileID: 8558608289655704457}
   m_Layer: 6
-  m_Name: FatZombie_LeftHandRing2
+  m_Name: FatZombie_Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1091061362383782282
+--- !u!4 &8558608289655704457
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6125972702602728372}
+  m_GameObject: {fileID: 8179022722303400024}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.04083983, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.22625417, w: 0.97406834}
+  m_LocalPosition: {x: -0.11399999, y: 2.5313083e-17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8801805130861446078}
-  m_Father: {fileID: 1120080521524799159}
-  m_LocalEulerAnglesHint: {x: 2.819478, y: -7.0726833, z: 43.95971}
---- !u!1 &6408359402177152685
+  - {fileID: 8122885492552023244}
+  - {fileID: 5029135495305177393}
+  - {fileID: 2382485604020982658}
+  m_Father: {fileID: 4619090185847002592}
+  m_LocalEulerAnglesHint: {x: -1.096823, y: -0.12779999, z: 27.039154}
+--- !u!1 &8428261636378039696
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1333,436 +2028,30 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1780653270098068129}
-  - component: {fileID: 2350133775265175591}
-  - component: {fileID: 4070716559034948288}
-  - component: {fileID: 6382346449722935378}
-  - component: {fileID: 2394196907792120218}
-  - component: {fileID: 6819722151307338292}
-  - component: {fileID: 7599170710311689378}
-  - component: {fileID: 5573506528785027573}
-  - component: {fileID: 5032503125934151098}
-  - component: {fileID: 400973525075718389}
+  - component: {fileID: 8495058210573664890}
   m_Layer: 6
-  m_Name: FatZombiePlayer
-  m_TagString: Player
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1780653270098068129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6553764740972714813}
-  - {fileID: 2324115510471310336}
-  - {fileID: 3612092930184286763}
-  - {fileID: 6470623501669105839}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &2350133775265175591
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d12e48dabc778f945a77e132e20b0d9d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!136 &4070716559034948288
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.35
-  m_Height: 1.6
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.8, z: 0}
---- !u!54 &6382346449722935378
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  serializedVersion: 4
-  m_Mass: 5
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 112
-  m_CollisionDetection: 0
---- !u!114 &2394196907792120218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c470c0b62411ed41bad55d368f6ae79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  controller: {fileID: 0}
-  condition: {fileID: 0}
-  animationHandler: {fileID: 0}
-  interaction: {fileID: 0}
-  headGear: {fileID: 0}
-  weapon: {fileID: 0}
-  itemData: {fileID: 0}
-  dropPosition: {fileID: 6470623501669105839}
---- !u!114 &6819722151307338292
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01e566cda85b1ed40be42a4935ad777f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  noHungerHealthDecay: 0
---- !u!114 &7599170710311689378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b4c4cbf16d550d44e83a0583d5e22dc9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 1
-  runSpeed: 3
-  runStamina: 10
-  jumpStamina: 20
-  isMove: 0
-  isRun: 0
-  isFloat: 0
-  canMove: 1
-  onLaunch: 0
-  jumpPower: 15
-  groundLayerMask:
-    serializedVersion: 2
-    m_Bits: 1847
-  climbSpeed: 3
-  wallDetectRange: 1
-  climbDuration: 1.5
-  headOffset: 0.3
-  wallLayer:
-    serializedVersion: 2
-    m_Bits: 0
-  head: {fileID: 0}
-  cameraContainer: {fileID: 3612092930184286763}
-  minXLook: -85
-  maxXLook: 85
-  camYRot: -15
-  lookSensitivity: 0.3
-  canLook: 1
-  _rigidbody: {fileID: 0}
---- !u!114 &5573506528785027573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: bf23fb7947ed4d746930dd800edf06f3, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7599170710311689378}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnMoveInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: d69b73b7-8258-4df5-90ad-75e81691bc6b
-    m_ActionName: PlayerAction/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7599170710311689378}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnLookInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 3002722f-8ed1-4642-a6b6-227416f934cc
-    m_ActionName: PlayerAction/Look[/Mouse/delta]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7599170710311689378}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnJumpInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 37194132-ee5d-4af1-b66c-7284c2d18f98
-    m_ActionName: PlayerAction/Jump[/Keyboard/space]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 400973525075718389}
-        m_TargetAssemblyTypeName: Interaction, Assembly-CSharp
-        m_MethodName: OnInteractInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 446e9e4a-a24e-4b01-bf27-e8516c3c1131
-    m_ActionName: PlayerAction/Interaction[/Keyboard/e]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7599170710311689378}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnRunInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: a8547993-1861-420f-92e2-4bdb204c027a
-    m_ActionName: PlayerAction/New action[/Keyboard/leftShift]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 267ab7ee-4f78-42eb-940c-b4499a5a5014
-    m_ActionName: UIInputAction/EscapeMenu[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 956172e2-68e7-4347-af3c-bedbb378cf23
-    m_ActionName: UIInputAction/TabMenu[/Keyboard/tab]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PlayerAction
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 6462562721533149653}
---- !u!114 &5032503125934151098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f6ba47a451a9cf4e9a3b4acf5990094, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
---- !u!114 &400973525075718389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6408359402177152685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3932e03d62fcada45b6b56dfa4e4628c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkRate: 0.05
-  maxCheckDistance: 3
-  layerMask:
-    serializedVersion: 2
-    m_Bits: 768
-  curInteractGameObject: {fileID: 0}
-  promptText: {fileID: 0}
-  backGround: {fileID: 0}
-  curCamera: {fileID: 0}
-  cameraFirst: {fileID: 5063038251095807882}
-  cameraThird: {fileID: 6462562721533149653}
---- !u!1 &6703709632014603703
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2232390595468060293}
-  m_Layer: 6
-  m_Name: FatZombie_LeftArm
+  m_Name: FatZombie_RightHandThumb4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2232390595468060293
+--- !u!4 &8495058210573664890
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6703709632014603703}
+  m_GameObject: {fileID: 8428261636378039696}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.032457106, y: 0.118643194, z: 0.26187536, w: 0.9572313}
-  m_LocalPosition: {x: -0.09937219, y: -2.842171e-16, z: -1.9984014e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6688771610059042950}
-  m_Father: {fileID: 760301014456119899}
-  m_LocalEulerAnglesHint: {x: -16.859743, y: 23.775385, z: 64.98412}
---- !u!1 &6869606834647650901
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8068850645396823146}
-  m_Layer: 6
-  m_Name: FatZombie_RightShoulder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8068850645396823146
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6869606834647650901}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.1043989, y: -0.0650426, z: -0.8423076, w: 0.52477443}
-  m_LocalPosition: {x: -0.087392874, y: 0.11309989, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5482419299967655658}
-  m_Father: {fileID: 7816697882358391462}
-  m_LocalEulerAnglesHint: {x: -17.751408, y: 12.941485, z: -120.20449}
---- !u!1 &6953390175262606299
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 506020370748418512}
-  m_Layer: 6
-  m_Name: FatZombie_RightHandRing4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &506020370748418512
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6953390175262606299}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.16283254, y: 0.072627306, z: 0.8986418, w: -0.4008163}
-  m_LocalPosition: {x: -0.017310126, y: -1.4210854e-16, z: -0.000000007692507}
+  m_LocalRotation: {x: 0.23031159, y: -0.15386629, z: -0.79897565, w: 0.53377867}
+  m_LocalPosition: {x: -0.024000715, y: -0.00000010745292, z: -0.0000001934454}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5128105414344837344}
+  m_Father: {fileID: 8783216454828769007}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7142483603155431635
+--- !u!1 &8579703369375165110
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1770,72 +2059,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8439175604588157107}
-  m_Layer: 6
-  m_Name: FatZombie_LeftHandThumb2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8439175604588157107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7142483603155431635}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.066730835, y: -0.15032753, z: -0.077167355, w: 0.98335844}
-  m_LocalPosition: {x: -0.023982935, y: -2.842171e-16, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 9076589156103475634}
-  m_Father: {fileID: 642949490339657098}
-  m_LocalEulerAnglesHint: {x: 15.85258, y: -22.368006, z: -14.113557}
---- !u!1 &7430420681160733189
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1588182601698759854}
-  m_Layer: 6
-  m_Name: FatZombie_LeftHand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1588182601698759854
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7430420681160733189}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.061230484, y: 0.36302793, z: 0.0681908, w: 0.9272603}
-  m_LocalPosition: {x: -0.24027433, y: -3.9790393e-15, z: -7.105427e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1120080521524799159}
-  - {fileID: 642949490339657098}
-  m_Father: {fileID: 6688771610059042950}
-  m_LocalEulerAnglesHint: {x: -11.153562, y: 59.697357, z: 26.265154}
---- !u!1 &7861102095270484981
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5668216620696649068}
+  - component: {fileID: 28149550631918666}
   m_Layer: 6
   m_Name: FatZombie_RightHandRing2
   m_TagString: Untagged
@@ -1843,23 +2067,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5668216620696649068
+--- !u!4 &28149550631918666
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7861102095270484981}
+  m_GameObject: {fileID: 8579703369375165110}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.04083983, y: -1.4210854e-16, z: -3.5527136e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5128105414344837344}
-  m_Father: {fileID: 2970575988666290982}
+  - {fileID: 6380159756133385449}
+  m_Father: {fileID: 8441321887742752524}
   m_LocalEulerAnglesHint: {x: -2.3844132, y: -6.06669, z: -42.824203}
---- !u!1 &7871819146689453653
+--- !u!1 &8745930496360476335
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1867,33 +2091,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2234800241710642110}
+  - component: {fileID: 4814767974435426297}
   m_Layer: 6
-  m_Name: FatZombie_Hips
+  m_Name: FatZombie_LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2234800241710642110
+--- !u!4 &4814767974435426297
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7871819146689453653}
+  m_GameObject: {fileID: 8745930496360476335}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.18097486, w: 0.9834877}
-  m_LocalPosition: {x: -0, y: 0.9, z: 0}
+  m_LocalRotation: {x: 0, y: -0.07438483, z: -0, w: 0.99722964}
+  m_LocalPosition: {x: -0.4039078, y: 3.5527136e-17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6152332919380680800}
-  - {fileID: 6076893406066784847}
-  - {fileID: 8685822048155585962}
-  m_Father: {fileID: 2324115510471310336}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20.853092}
---- !u!1 &8047358473412056395
+  - {fileID: 299376162981971762}
+  m_Father: {fileID: 5574270491243661058}
+  m_LocalEulerAnglesHint: {x: -5.027895, y: -21.632105, z: -0.671358}
+--- !u!1 &8993136390365337507
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1901,249 +2123,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 494511509345288169}
+  - component: {fileID: 2287294428602413404}
   m_Layer: 6
-  m_Name: FatZombie_LeftToeBase
+  m_Name: FatZombie_RightArm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &494511509345288169
+--- !u!4 &2287294428602413404
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8047358473412056395}
+  m_GameObject: {fileID: 8993136390365337507}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.26549473, y: -0.440527, z: -0.44266683, w: 0.734503}
-  m_LocalPosition: {x: -0.12950039, y: 3.5527136e-17, z: -8.881784e-18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3276115142367622104}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8212233251178324560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 760301014456119899}
-  m_Layer: 6
-  m_Name: FatZombie_LeftShoulder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &760301014456119899
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8212233251178324560}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.06504193, y: -0.104399316, z: 0.5247637, w: 0.8423143}
-  m_LocalPosition: {x: -0.1429304, y: 7.105427e-17, z: 0}
+  m_LocalRotation: {x: -0.032457866, y: 0.11864298, z: -0.26187542, w: 0.9572312}
+  m_LocalPosition: {x: -0.09937219, y: 2.1316282e-14, z: 2.4424906e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2232390595468060293}
-  m_Father: {fileID: 7816697882358391462}
-  m_LocalEulerAnglesHint: {x: 15.713537, y: -5.87383, z: 61.512245}
---- !u!1 &8249547530129940117
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1120080521524799159}
-  m_Layer: 6
-  m_Name: FatZombie_LeftHandRing1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1120080521524799159
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8249547530129940117}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.04141429, y: -0.3638611, z: 0.046122015, w: 0.9293884}
-  m_LocalPosition: {x: -0.0399714, y: 0.012194946, z: -0.060450815}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1091061362383782282}
-  m_Father: {fileID: 1588182601698759854}
-  m_LocalEulerAnglesHint: {x: 0.5176122, y: -68.050995, z: 56.78721}
---- !u!1 &8356139731041446725
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6703130865321412135}
-  m_Layer: 6
-  m_Name: FatZombie_RightToeBase
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6703130865321412135
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8356139731041446725}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.4404962, y: 0.26551327, z: 0.73452145, w: -0.44265568}
-  m_LocalPosition: {x: -0.12950039, y: 7.105427e-17, z: -9.7699626e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1186976923709122080}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8453685547409292757
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 665850026560256966}
-  m_Layer: 6
-  m_Name: FatZombie_LeftHandThumb4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &665850026560256966
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8453685547409292757}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.15389812, y: -0.23029034, z: -0.5338891, w: 0.7989019}
-  m_LocalPosition: {x: -0.024000715, y: 0.00000010745292, z: -0.0000001934454}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 9076589156103475634}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8506401517093936678
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9076589156103475634}
-  m_Layer: 6
-  m_Name: FatZombie_LeftHandThumb3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &9076589156103475634
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8506401517093936678}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.022888264, y: -2.842171e-16, z: -3.5527135e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 665850026560256966}
-  m_Father: {fileID: 8439175604588157107}
-  m_LocalEulerAnglesHint: {x: -1.9543965, y: 12.5699835, z: -15.926174}
---- !u!1 &8649774247657474569
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6502136391377342839}
-  m_Layer: 6
-  m_Name: FatZombie_RightHand
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6502136391377342839
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8649774247657474569}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.061230484, y: 0.36302793, z: -0.0681908, w: 0.9272603}
-  m_LocalPosition: {x: -0.24027433, y: 3.9790393e-15, z: 3.5527136e-17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2970575988666290982}
-  - {fileID: 8890181444659457790}
-  m_Father: {fileID: 8729444413738946737}
-  m_LocalEulerAnglesHint: {x: 12.586484, y: 72.88404, z: 1.4374768}
---- !u!1 &8738887659524282257
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 642949490339657098}
-  m_Layer: 6
-  m_Name: FatZombie_LeftHandThumb1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &642949490339657098
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8738887659524282257}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0.27199626, y: -0.11321726, z: 0.18055794, w: 0.93840224}
-  m_LocalPosition: {x: -0.053958934, y: 0, z: 1.7763567e-16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8439175604588157107}
-  m_Father: {fileID: 1588182601698759854}
-  m_LocalEulerAnglesHint: {x: -33.21945, y: -37.996216, z: 22.441572}
+  - {fileID: 4370911644988331875}
+  m_Father: {fileID: 2382485604020982658}
+  m_LocalEulerAnglesHint: {x: 6.735482, y: 37.23465, z: -74.388664}
