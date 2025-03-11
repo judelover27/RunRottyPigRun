@@ -66,7 +66,6 @@ public class PlatformLauncher : StructureObject
     {
         playerRigidbody.velocity = Vector3.zero;
         CharacterManager.Instance.Player.controller.canMove = false;
-        playerRigidbody.AddForce(launchDirection.normalized * launchForce, ForceMode.Impulse);
         StartCoroutine(CoroutineLaunch());
         StartCoroutine(DisableMovementForSeconds(3f)); // 
 
@@ -76,7 +75,8 @@ public class PlatformLauncher : StructureObject
     IEnumerator CoroutineLaunch()
     {
         yield return new WaitForSeconds(0.1f);
-        playerRigidbody.AddForce(transform.forward.normalized * launchForce, ForceMode.Impulse);
+        playerRigidbody.AddForce((launchDirection+transform.forward).normalized * launchForce, ForceMode.Impulse);
+        Debug.LogError($"error{playerRigidbody.velocity}");
 
     }
 
