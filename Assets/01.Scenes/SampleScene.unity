@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.11092561, g: 0.08367824, b: 0.09120754, a: 1}
+  m_IndirectSpecularColor: {r: 0.47256613, g: 0.35508645, b: 0.38741696, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8732,6 +8732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SlimePolyart
       objectReference: {fileID: 0}
+    - target: {fileID: 126361105215820069, guid: 0c1b1a248480d2047bf67f8264076ceb, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6795742529877080077, guid: 0c1b1a248480d2047bf67f8264076ceb, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.117
@@ -11748,8 +11752,6 @@ GameObject:
   - component: {fileID: 7473048727721497202}
   - component: {fileID: 9201793208042689087}
   - component: {fileID: 9201793208042689088}
-  - component: {fileID: 9201793208042689090}
-  - component: {fileID: 9201793208042689089}
   m_Layer: 9
   m_Name: Floor
   m_TagString: Untagged
@@ -11952,7 +11954,7 @@ PrefabInstance:
       objectReference: {fileID: 4278499524732085723}
     - target: {fileID: 1780653270098068129, guid: a6b446d2d14e2fd418e13d0f93e50bd0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.103
       objectReference: {fileID: 0}
     - target: {fileID: 1780653270098068129, guid: a6b446d2d14e2fd418e13d0f93e50bd0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11960,7 +11962,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1780653270098068129, guid: a6b446d2d14e2fd418e13d0f93e50bd0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -4.509
       objectReference: {fileID: 0}
     - target: {fileID: 1780653270098068129, guid: a6b446d2d14e2fd418e13d0f93e50bd0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11990,11 +11992,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2350133775265175591, guid: a6b446d2d14e2fd418e13d0f93e50bd0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6408359402177152685, guid: a6b446d2d14e2fd418e13d0f93e50bd0, type: 3}
       propertyPath: m_Name
       value: FatZombiePlayer
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4899733737313158971, guid: a6b446d2d14e2fd418e13d0f93e50bd0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -12854,89 +12861,6 @@ MonoBehaviour:
   launchForce: 200
   launchDelay: 4
   autoLaunch: 1
---- !u!114 &9201793208042689089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7256330733840708587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7fd56520e45372448eddf79b254a2ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  data: {fileID: 0}
---- !u!114 &9201793208042689090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7256330733840708587}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: bf23fb7947ed4d746930dd800edf06f3, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: d69b73b7-8258-4df5-90ad-75e81691bc6b
-    m_ActionName: PlayerAction/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 3002722f-8ed1-4642-a6b6-227416f934cc
-    m_ActionName: PlayerAction/Look[/Mouse/delta]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 37194132-ee5d-4af1-b66c-7284c2d18f98
-    m_ActionName: PlayerAction/Jump[/Keyboard/space]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 9201793208042689088}
-        m_TargetAssemblyTypeName: PlatformLauncher, Assembly-CSharp
-        m_MethodName: OnLaunchInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 446e9e4a-a24e-4b01-bf27-e8516c3c1131
-    m_ActionName: PlayerAction/Interaction[/Keyboard/e]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a8547993-1861-420f-92e2-4bdb204c027a
-    m_ActionName: PlayerAction/Run[/Keyboard/leftShift]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 267ab7ee-4f78-42eb-940c-b4499a5a5014
-    m_ActionName: UIInputAction/EscapeMenu[/Keyboard/escape]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 956172e2-68e7-4347-af3c-bedbb378cf23
-    m_ActionName: UIInputAction/TabMenu[/Keyboard/tab]
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: PlayerAction
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

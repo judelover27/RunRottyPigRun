@@ -75,6 +75,7 @@ public class PlatformLauncher : StructureObject
     IEnumerator CoroutineLaunch()
     {
         yield return new WaitForSeconds(0.1f);
+        CharacterManager.Instance.Player.controller.canMove = false;
         playerRigidbody.AddForce((launchDirection+transform.forward).normalized * launchForce, ForceMode.Impulse);
         Debug.LogError($"error{playerRigidbody.velocity}");
 

@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public bool isFloat;
     private bool isJumping;
     public bool canMove = true;
+    public bool onLaunch = false;
     private Vector2 curMovementInput;
     public float jumpPower = 100f;
     public LayerMask groundLayerMask;
