@@ -12,6 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b619f632c9e91214aa7846cea1e3874e, type: 3}
   m_Name: Chest
   m_EditorClassIdentifier: 
-  displayName: 
-  description: 
-  dropPrefab: []
+  displayName: "\uBCF4\uBB3C\uC0C1\uC790"
+  description: "[E]\uB97C \uB20C\uB7EC\uC11C \uC5EC\uC138\uC694."
+  dropPrefab:
+  - {fileID: 7110782364668960676, guid: c2ddfbd3ee282194eaed397ba063bcd5, type: 3}
+  - {fileID: 8123084829858392101, guid: 00ca28b8a6061154d91e66ccaf446e23, type: 3}
+  - {fileID: 7984637640541877582, guid: ce0d7d25505be464bbf2ded3555d8110, type: 3}
+  - {fileID: 2561188813657140736, guid: 0a3dd58da5f15e941ba01d6cfd27423d, type: 3}

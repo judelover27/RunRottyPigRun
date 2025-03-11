@@ -21,6 +21,18 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayerMask;
     private CapsuleCollider capsuleCollider;
 
+    [Header("Climb")]
+    public float climbSpeed = 3f;
+    public float wallDetectRange = 1f;
+    public float climbDuration = 1.5f;
+    public float headOffset = 0.3f;
+    public LayerMask wallLayer;
+    public Transform head;
+
+    private bool isClimbing = false;
+    private Coroutine climbCoroutine;
+
+
     [Header("Look")]
     public Transform cameraContainer;
     public float minXLook;
@@ -166,20 +178,20 @@ public class PlayerController : MonoBehaviour
 
     public void CheckFloatState()
     {
-        if(Mathf.Abs(_rigidbody.velocity.y) > 1f)
+        if (Mathf.Abs(_rigidbody.velocity.y) > 1f)
         {
             isFloat = true;
             CharacterManager.Instance.Player.animationHandler.Float(isFloat);
         }
 
-        if(isFloat)
-        StartCoroutine(CoroutineIsGround());
+        if (isFloat)
+            StartCoroutine(CoroutineIsGround());
     }
 
     IEnumerator CoroutineIsGround()
     {
-        
-        while(!IsGrounded())
+
+        while (!IsGrounded())
         {
             yield return null;
         }
@@ -215,6 +227,68 @@ public class PlayerController : MonoBehaviour
         return false;
     }
 
+    public void OnClimbInput(InputAction.CallbackContext context)
+    {
+        if (IsNearWall()) // 벽 감지
+        {
+            Debug.Log("Climb");
+            StartClimbing();
+        }
+    }
+
+    private bool IsNearWall()
+    {
+        RaycastHit hit;
+        Vector3 origin = head.position;
+        Vector3 direction = transform.forward; // 캐릭터가 바라보는 방향
+
+        // 벽 감지 Raycast (벽이 앞에 있는지 확인)
+        bool wallDetected = Physics.Raycast(origin, direction, out hit, wallDetectRange, wallLayer);
+
+        // 상단 부분 확인 (위쪽이 비어 있는지)
+        Vector3 upperCheckOrigin = head.position + Vector3.up * headOffset;
+        bool upperSpaceFree = !Physics.Raycast(upperCheckOrigin, direction, wallDetectRange, wallLayer);
+
+        return wallDetected && upperSpaceFree;
+    }
+
+
+    private void StartClimbing()
+    {
+        if (!isClimbing)
+        {
+            _rigidbody.useGravity = false;
+            _rigidbody.velocity = Vector3.zero;
+            isClimbing = true;
+
+            if (climbCoroutine != null)
+                StopCoroutine(climbCoroutine);
+
+            climbCoroutine = StartCoroutine(ClimbingCoroutine());
+        }
+    }
+
+    IEnumerator ClimbingCoroutine()
+    {
+        float time = 0f;
+        while (time < climbDuration && isClimbing)
+        {
+            time += Time.deltaTime;
+            transform.position += Vector3.up * climbSpeed * Time.deltaTime;
+            yield return null;
+        }
+
+        StopClimbing();
+    }
+
+    private void StopClimbing()
+    {
+        if (isClimbing)
+        {
+            _rigidbody.useGravity = true;
+            isClimbing = false;
+        }
+    }
 
     public void ToggleCursor()
     {
