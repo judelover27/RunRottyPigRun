@@ -27,12 +27,14 @@ public class UIOptionMenu : UIBase
                 thirdPersonCamera.gameObject.SetActive(true);
                 firstPersonCamera.gameObject.SetActive(false);
                 CharacterManager.Instance.Player.controller.camYRot = -15f;
+                CharacterManager.Instance.Player.interaction.camera = CharacterManager.Instance.Player.interaction.cameraThird;
                 break;
 
             case 1: 
                 thirdPersonCamera.gameObject.SetActive(false);
                 firstPersonCamera.gameObject.SetActive(true);
                 CharacterManager.Instance.Player.controller.camYRot = 0f;
+                CharacterManager.Instance.Player.interaction.camera = CharacterManager.Instance.Player.interaction.cameraFirst;
                 break;
         }
     }

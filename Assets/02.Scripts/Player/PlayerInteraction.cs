@@ -4,7 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class Interaction : MonoBehaviour
+public class PlayerInteraction : MonoBehaviour
 {
     public float checkRate = 0.05f;
     private float lastCheckTime;
@@ -16,8 +16,9 @@ public class Interaction : MonoBehaviour
 
     public TextMeshProUGUI promptText;
     public GameObject backGround;
-    private Camera camera;
-
+    public Camera camera;
+    public Camera cameraThird;
+    public Camera cameraFirst;
     private void Start()
     {
         camera = Camera.main;

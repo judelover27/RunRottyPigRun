@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public PlayerController controller;
     public PlayerCondition condition;
     public PlayerAnimationHandler animationHandler;
+    public PlayerInteraction interaction;
     public HeadGear headGear;
     public Weapon weapon;
 
@@ -22,5 +23,6 @@ public class Player : MonoBehaviour
         controller = GetComponent<PlayerController>();
         condition = GetComponent<PlayerCondition>();
         animationHandler = GetComponent<PlayerAnimationHandler>();
+        interaction = GetComponent<PlayerInteraction>();
     }
 }
