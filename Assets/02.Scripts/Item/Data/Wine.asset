@@ -21,4 +21,4 @@ MonoBehaviour:
   maxStackAmount: 0
   consumables: []
   specialties:
-  - {fileID: 0}
+  - {fileID: 871160279631972404, guid: 700944f195ae7c645922edf43ffc763d, type: 3}
