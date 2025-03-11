@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
     public float jumpPower = 100f;
     public LayerMask groundLayerMask;
     private CapsuleCollider capsuleCollider;
+    private bool isCheckingGround = false; // 중복 코루틴 실행 방지
+    private float floatThreshold = 3.5f; // 공중으로 판단할 속도 기준
 
     [Header("Climb")]
     public float climbSpeed = 3f;
@@ -178,26 +180,36 @@ public class PlayerController : MonoBehaviour
 
     public void CheckFloatState()
     {
-        if (Mathf.Abs(_rigidbody.velocity.y) > 1f)
+        // 이미 공중 상태면 체크할 필요 없음
+        if (isFloat) return;
+
+        // 점프 또는 낙하 감지 (공중 상태 진입)
+        if (!IsGrounded() && Mathf.Abs(_rigidbody.velocity.y) > floatThreshold)
         {
             isFloat = true;
             CharacterManager.Instance.Player.animationHandler.Float(isFloat);
-        }
 
-        if (isFloat)
-            StartCoroutine(CoroutineIsGround());
+            // 중복 실행 방지
+            if (!isCheckingGround)
+                StartCoroutine(CoroutineIsGround());
+        }
     }
 
     IEnumerator CoroutineIsGround()
     {
+        isCheckingGround = true; // 코루틴 실행 중
 
+        // 착지할 때까지 대기
         while (!IsGrounded())
         {
             yield return null;
         }
 
+        // 착지 후 상태 변경
         isFloat = false;
         CharacterManager.Instance.Player.animationHandler.Float(isFloat);
+
+        isCheckingGround = false; // 코루틴 종료
     }
 
     bool IsGrounded()
